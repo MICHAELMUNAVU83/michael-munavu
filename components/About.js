@@ -22,13 +22,13 @@ const About = () => {
             Check out some of my recent projects below.
           </p>
         </div>
-        <div className="flex justify-center mt-5 relative bg-gradient-to-b  from-blue-500 overflow-hidden rounded-full w-80 h-80 m-auto hover:scale-105 ease-in duration-300 shadow-xl shadow-gray-300">
+        <div className="flex justify-center mt-5 relative bg-gradient-to-b  from-blue-500 overflow-hidden rounded-full w-80 h-80 m-auto hover:scale-105 ease-in duration-300 shadow-xl shadow-gray-600">
           <Image
             src={avatar}
-            alt="kimani"
+            alt="avatar"
             layout="fill"
             objectFit="cover"
-            className="flex justify-center rounded-full"
+            className="flex justify-center rounded-full shadow-lg shadow-gray-400"
           />
         </div>
       </div>
