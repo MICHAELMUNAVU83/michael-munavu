@@ -57,11 +57,7 @@ const NavBar = () => {
         >
           <div>
             <div className="flex justify-between items-center w-full">
-              <Image
-                src={logo}
-                width={87}
-                height={35}
-              />
+              <Image src={logo} width={87} height={35} />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer"
@@ -99,7 +95,7 @@ const NavBar = () => {
                 <p className="uppercase tracking-widest text-[#5651e5]">
                   Let's Connect{" "}
                 </p>
-                <div className="flex items-center justify-between w-full  my-4 sm:w-[80%]">
+                <div className="flex items-center justify-between w-full  my-4 sm:w-[80%] w-100">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
                     <FaLinkedin size={25} />
                   </div>
