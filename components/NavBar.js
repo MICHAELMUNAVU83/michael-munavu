@@ -97,19 +97,19 @@ const NavBar = () => {
                 </p>
                 <div className="flex items-center justify-between w-full  my-4 sm:w-[80%] w-100">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <FaLinkedin size={25} />
+                    <FaLinkedin />
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <FaGithub size={25} />
+                    <FaGithub />
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <FaTwitter size={25} />
+                    <FaTwitter />
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <AiOutlineMail size={25} />
+                    <AiOutlineMail />
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <BsFillPersonLinesFill size={25} />
+                    <BsFillPersonLinesFill />
                   </div>
                 </div>
               </div>
