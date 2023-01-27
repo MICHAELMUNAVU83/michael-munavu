@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import tonio from "../public/tonio.jpg";
+import avatar from "../public/avatar.png";
 const About = () => {
   return (
     <div className="w-full md:h-screen p-2 flex items-center ">
@@ -24,7 +24,7 @@ const About = () => {
         </div>
         <div className="flex justify-center mt-5 relative bg-gradient-to-b  from-blue-500 overflow-hidden rounded-full w-80 h-80 m-auto hover:scale-105 ease-in duration-300 shadow-xl shadow-gray-300">
           <Image
-            src={tonio}
+            src={avatar}
             alt="kimani"
             layout="fill"
             objectFit="cover"
