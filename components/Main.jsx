@@ -11,9 +11,11 @@ const Main = () => {
             LET'S BUILD SOMETHING BEAUTIFUL
           </p>
           <h1 className="py-3 text-gray-700">
-            Hi , I'm <span className="text-[#5651e5]">Michael Munavu</span>
+            Hi , I am <span className="text-[#5651e5]">Michael Munavu</span>
           </h1>
-          <h1 className="py-3 text-gray-700">
+          <h2 className=" text-gray-700 text-center">I am a</h2>
+
+          <h1 className="py-3 text-[#5651e5]">
             <Typewriter
               options={{
                 strings: [
