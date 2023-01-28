@@ -5,9 +5,37 @@ import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import logo from "../public/assets/navLogo.png";
+import { useRouter } from "next/router";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [linkColor, setLinkColor] = useState("#1f2937");
+  const router = useRouter();
+
+  useEffect(() => {
+    if (
+      router.asPath === "/cake" ||
+      router.asPath === "/lifeline" ||
+      router.asPath === "/mechanicall" ||
+      router.asPath === "/house" ||
+      router.asPath === "/greenr" ||
+      router.asPath === "/techmeout" ||
+      router.asPath === "/movie" ||
+      router.asPath === "/votein" ||
+      router.asPath === "/news" ||
+      router.asPath === "/socialmarket" ||
+      router.asPath === "/store" ||
+      router.asPath === "/reactrecipe" 
+
+    ) {
+      setNavBg("transparent");
+      setLinkColor("#ecf0f3");
+    } else {
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
+    }
+  }, [router]);
 
   useEffect(() => {
     const handleShadow = () => {
@@ -26,6 +54,7 @@ const NavBar = () => {
   };
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -37,7 +66,7 @@ const NavBar = () => {
           <Image src={logo} width={85} height={50} />
         </Link>
         <div>
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
             <Link href="/">
               <li className="ml-10 uppercase text-sm hover:border-b">Home</li>
             </Link>
@@ -58,7 +87,11 @@ const NavBar = () => {
               </li>
             </Link>
           </ul>
-          <div className="md:hidden" onClick={handleNav}>
+          <div
+            className="md:hidden"
+            onClick={handleNav}
+            style={{ color: `${linkColor}` }}
+          >
             <AiOutlineMenu size={25} />
           </div>
         </div>
