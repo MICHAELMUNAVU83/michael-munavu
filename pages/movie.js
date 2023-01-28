@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import moviepic from "../public/assets/projects/movie.png";
+import moviepic from "../public/assets/projects/movies.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -31,8 +31,24 @@ function movie() {
             a user authentication system and a shopping cart system. It also has
             a payment system that uses Stripe.
           </p>
-          <button className="px-8 py-2  mt-4 mr-8"> Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <button className="px-8 py-2  mt-4 mr-8">
+            <a
+              href="https://trance-moviehub.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4">
+            <a
+              href="https://github.com/MICHAELMUNAVU83/trance-movies"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Code
+            </a>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import {FiPhoneCall} from "react-icons/fi"
+import { FaWhatsapp } from "react-icons/fa";
+
 import logo from "../public/assets/navLogo.png";
 import { useRouter } from "next/router";
 const NavBar = () => {
@@ -157,20 +159,46 @@ const NavBar = () => {
                   Let's Connect{" "}
                 </p>
                 <div className="flex items-center justify-between w-full  my-4 sm:w-[80%] w-100">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <FaLinkedin />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer  hover:scale-110 ease-in   duration-300">
+                    <a
+                      href="https://www.linkedin.com/in/michael-munavu-0b0b1b1b9/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaLinkedin />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <FaGithub />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
+                    <a
+                      href="https://github.com/MICHAELMUNAVU83"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaGithub />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <FaTwitter />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
+                    <a
+                      href="https://twitter.com/MichaelTrance1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaTwitter />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <AiOutlineMail />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
+                    <a rel="noopener noreferrer" href="tel:0740769596">
+                      <FiPhoneCall />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in   duration-300">
-                    <BsFillPersonLinesFill />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in   duration-300">
+                    <a
+                      href="https://wa.me/254740769596"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FaWhatsapp />
+                    </a>
                   </div>
                 </div>
               </div>
