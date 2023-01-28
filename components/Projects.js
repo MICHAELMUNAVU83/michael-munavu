@@ -9,6 +9,8 @@ import techmeout from "../public/assets/projects/tech-me-out.png";
 import votein from "../public/assets/projects/votein.png";
 import news from "../public/assets/projects/news.png";
 import mechanicall from "../public/assets/projects/mechanicall.png";
+import reactrecipe from "../public/assets/projects/reactrecipe.png";
+import store from "../public/assets/projects/store.png";
 
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -79,6 +81,18 @@ const Projects = () => {
             image={news}
             projectUrl="/news"
             languages="HTML , CSS, JavaScript"
+          />
+          <ProjectItem
+            title="React Recipe App"
+            image={reactrecipe}
+            projectUrl="/reactrecipe"
+            languages="React JS, Bootstrap"
+          />
+          <ProjectItem
+            title="Ecommerce Store App"
+            image={store}
+            projectUrl="/store"
+            languages="React JS, Bootstrap"
           />
         </div>
       </div>

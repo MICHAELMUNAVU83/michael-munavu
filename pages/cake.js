@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import cakepic from "../public/assets/projects/cake.png";
 import { RiRadioButtonFill } from "react-icons/ri";
+import Link from "next/link";
 
 function cake() {
   return (
@@ -36,7 +37,7 @@ function cake() {
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center  font-semibold pb-2">Technologies</p>
-            <div>
+            <div className="grid grid-cols-3 md:grid-cols-1 ">
               <p className="flex items-center text-gray-600 py-2 ">
                 <RiRadioButtonFill className="pr-1" /> React JS
               </p>
@@ -49,6 +50,9 @@ function cake() {
             </div>
           </div>
         </div>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back </p>
+        </Link>
       </div>
     </div>
   );
