@@ -23,15 +23,15 @@ function reactrecipe() {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5  gap-8 pt-5">
         <div className="col-span-4">
-        <p className="uppercase text-xltracking-widest text-[#5651e5] ">
+          <p className="uppercase text-xltracking-widest text-[#5651e5] ">
             Project
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-            this is an ecommerce site for a cake shop. It is built with React JS
-            and Bootstrap CSS. It has a backend built with Ruby on Rails. It has
-            a user authentication system and a shopping cart system. It also has
-            a payment system that uses Stripe.
+            This is a recipe app built with React JS and Bootstrap CSS. It uses
+            the Edamam API to fetch recipes. It gives the recipe and the
+            ingredient for the recipe. It displays different recipes for the
+            search term.
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a

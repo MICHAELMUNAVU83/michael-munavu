@@ -28,10 +28,10 @@ function votein() {
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-            this is an ecommerce site for a cake shop. It is built with React JS
-            and Bootstrap CSS. It has a backend built with Ruby on Rails. It has
-            a user authentication system and a shopping cart system. It also has
-            a payment system that uses Stripe.
+            This site allows users to vote for their favorite candidates in a
+            secure way. It is built with Ruby on Rails and Bootstrap CSS. It
+            ensures that the user can only vote once and that the votes are
+            counted correctly and seen by the admin only.
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a

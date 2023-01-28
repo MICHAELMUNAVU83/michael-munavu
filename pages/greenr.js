@@ -28,10 +28,11 @@ function greenr() {
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-            this is an ecommerce site for a cake shop. It is built with React JS
+            This is a carbon credit trading platform. It is built with React JS
             and Bootstrap CSS. It has a backend built with Ruby on Rails. It has
-            a user authentication system and a shopping cart system. It also has
-            a payment system that uses Stripe.
+            a user authentication system and has access to buyers and sellers.
+            It allows users to buy and sell carbon credits to reduce their
+            carbon footprint.
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a

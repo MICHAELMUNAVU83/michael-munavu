@@ -28,10 +28,9 @@ function cake() {
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-            this is an ecommerce site for a cake shop. It is built with React JS
-            and Bootstrap CSS. It has a backend built with Ruby on Rails. It has
-            a user authentication system and a shopping cart system. It also has
-            a payment system that uses Stripe.
+            This is an ecommerce site for a cake shop. It is built with React JS
+            and Bootstrap CSS. It has m and a shopping cart system and a system
+            to send an email to the user when they place an order.
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a

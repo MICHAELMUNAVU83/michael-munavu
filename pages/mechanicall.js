@@ -17,21 +17,21 @@ function mechanicall() {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
           <h2 className="py-2">Lifeline</h2>
-          <p>Ruby on Rails / React JS / Bootstrap</p>
+          <p>Ruby on Rails / React JS / Bootstrap / Geolocation API</p>
         </div>
       </div>
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5  gap-8 pt-5">
         <div className="col-span-4">
-        <p className="uppercase text-xltracking-widest text-[#5651e5] ">
+          <p className="uppercase text-xltracking-widest text-[#5651e5] ">
             Project
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-            this is an ecommerce site for a cake shop. It is built with React JS
-            and Bootstrap CSS. It has a backend built with Ruby on Rails. It has
-            a user authentication system and a shopping cart system. It also has
-            a payment system that uses Stripe.
+            This is a site that allows users to book appointments with mechanics
+            whenever you need them and you don't know where to find them. It is
+            built with React JS , Bootstrap CSS and Ruby on Rails. It uses
+            Geolocation to find the nearest mechanic to the user.
           </p>
 
           <button className="px-8 py-2  mt-4 mr-8">
@@ -65,6 +65,9 @@ function mechanicall() {
               </p>
               <p className="flex items-center text-gray-600 py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Bootstrap
+              </p>
+              <p className="flex items-center text-gray-600 py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Geolocation API
               </p>
             </div>
           </div>
