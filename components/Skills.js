@@ -8,7 +8,6 @@ import tailwind from "../public/assets/skills/tailwind.png";
 import nextjs from "../public/assets/skills/nextjs.png";
 import ruby from "../public/assets/skills/ruby.png";
 import rails from "../public/assets/skills/ruby-on-rails.png";
-import github1 from "../public/assets/skills/github1.png";
 
 const Skills = () => {
   return (
