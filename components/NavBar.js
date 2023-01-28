@@ -26,8 +26,7 @@ const NavBar = () => {
       router.asPath === "/news" ||
       router.asPath === "/socialmarket" ||
       router.asPath === "/store" ||
-      router.asPath === "/reactrecipe" 
-
+      router.asPath === "/reactrecipe"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
@@ -68,21 +67,27 @@ const NavBar = () => {
         <div>
           <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
             <Link href="/">
-              <li className="ml-10 uppercase text-sm hover:border-b">Home</li>
+              <li className="ml-10 uppercase text-sm hover:border-b hover:border-y-black ">
+                Home
+              </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 uppercase text-sm hover:border-b">About</li>
+              <li className="ml-10 uppercase text-sm hover:border-b hover:border-y-black ">
+                About
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 uppercase text-sm hover:border-b">Skills</li>
+              <li className="ml-10 uppercase text-sm hover:border-b hover:border-y-black ">
+                Skills
+              </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 uppercase text-sm hover:border-b">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:border-y-black ">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 uppercase text-sm hover:border-b">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:border-y-black ">
                 Contact
               </li>
             </Link>

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import avatar from "../public/avatar.png";
+import Link from "next/link";
 const About = () => {
   return (
     <div id="about" className="w-full h-screen md:h-screen p-2 flex items-center ">
@@ -19,7 +20,9 @@ const About = () => {
             develop. I am not a writer, but I write.My name is Michael Munavu, a
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
+            <Link href="/#projects">
             Check out some of my recent projects below.
+            </Link>
           </p>
         </div>
         <div className="flex justify-center mt-5 relative bg-gradient-to-b  from-blue-500 overflow-hidden rounded-full w-80 h-80 m-auto hover:scale-105 ease-in duration-300 shadow-xl shadow-gray-600">
