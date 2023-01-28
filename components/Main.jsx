@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
-import Typed from "react-typed";
+import Typewriter from "typewriter-effect";
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
@@ -14,17 +14,18 @@ const Main = () => {
             Hi , I'm <span className="text-[#5651e5]">Michael Munavu</span>
           </h1>
           <h1 className="py-3 text-gray-700">
-            <Typed
-              strings={[
-                " A Full Stack Web Developer",
-                " A React Developer",
-                " A Ruby on Rails Developer",
-                "A Technical Writer",
-                "A Problem Solver",
-              ]}
-              typeSpeed={60}
-              backSpeed={70}
-              loop
+            <Typewriter
+              options={{
+                strings: [
+                  "Full Stack Developer",
+                  "React Developer",
+                  "Ruby on Rails Developer",
+                  "Technical Writer",
+                ],
+                autoStart: true,
+                loop: true,
+                cursor: "",
+              }}
             />
           </h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
