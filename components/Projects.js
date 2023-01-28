@@ -13,7 +13,7 @@ import mechanicall from "../public/assets/projects/mechanicall.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-wildest uppercase text-[#5651e5]">
           Projects
@@ -23,7 +23,7 @@ const Projects = () => {
           <ProjectItem
             title="Cake Shop Ecommerce"
             image={cake}
-            projectUrl="/cake-shop"
+            projectUrl="/cake"
             languages="React JS, Bootstrap, Ruby on Rails"
           />
           <ProjectItem
@@ -39,9 +39,9 @@ const Projects = () => {
             languages="React JS, Bootstrap CSS, Ruby on Rails"
           />
           <ProjectItem
-            title="Property Listing"
+            title="House Hunting App"
             image={house}
-            projectUrl="/property-listing"
+            projectUrl="/house"
             languages="React JS, Tailwind CSS"
           />
           <ProjectItem
@@ -57,9 +57,9 @@ const Projects = () => {
             languages="React JS, Tailwind CSS, Ruby on Rails"
           />
           <ProjectItem
-            title="Social Event Booking Site"
+            title="Event Vendors Booking App"
             image={events}
-            projectUrl="/social-events"
+            projectUrl="/socialmarket"
             languages="React JS , Ruby on Rails"
           />
           <ProjectItem
