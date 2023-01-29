@@ -20,7 +20,7 @@ const BlogItem = ({ title, image, blogUrl, description, topics }) => {
         </span>
       </div>
       <div className="flex justify-center">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2  my-2 px-2 rounded">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2  my-4 px-2 rounded">
           <a href={blogUrl} target="_blank" rel="noreferrer">
             Read More
           </a>
