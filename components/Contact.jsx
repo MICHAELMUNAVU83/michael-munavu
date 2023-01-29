@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import comp from "../public/computer.jpg";
 import Image from "next/image";
 import { AiOutlineMail } from "react-icons/ai";
@@ -6,8 +6,40 @@ import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+  const [phone, setPhone] = useState("");
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_obtaxtx",
+        "template_6ec2bfx",
+        form.current,
+        "6M-rV1iiaVqa5DANh"
+      )
+      .then(
+        (result) => {
+          setName("");
+          setEmail("");
+          setSubject("");
+          setMessage("");
+          setPhone("");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div id="contact" className="w-full h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-10  w-full">
@@ -63,17 +95,29 @@ const Contact = () => {
           {/* {right} */}
           <div className="col-span-3 lg:col-span-3 w-full h-auto shadow-xl shadow-gray-300 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
-                    <input type="text" className="border-2  rounded-lg p-3" />
+                    <input
+                      type="text"
+                      className="border-2  rounded-lg p-3"
+                      name="name"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                    />
                   </div>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">
                       Phone Number
                     </label>
-                    <input type="text" className="border-2  rounded-lg p-3" />
+                    <input
+                      type="text"
+                      className="border-2  rounded-lg p-3"
+                      name="phone_number"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
+                    />
                   </div>
                 </div>
 
@@ -82,13 +126,19 @@ const Contact = () => {
                   <input
                     type="email"
                     className="border-2  rounded-lg p-3 w-full"
+                    name="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    type="email"
+                    type="text"
                     className="border-2  rounded-lg p-3 w-full"
+                    name="subject"
+                    value={subject}
+                    onChange={(e) => setSubject(e.target.value)}
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -96,9 +146,15 @@ const Contact = () => {
                   <textarea
                     className="border-2  rounded-lg p-3 border-gray-300 "
                     rows="10"
+                    name="message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                   />
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4  ">
+                <button
+                  type="submit"
+                  className="w-full p-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white"
+                >
                   Send Message
                 </button>
               </form>
