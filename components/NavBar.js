@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
-import {FiPhoneCall} from "react-icons/fi"
+import { FiPhoneCall } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
 import logo from "../public/assets/navLogo.png";
@@ -88,6 +88,11 @@ const NavBar = () => {
                 Projects
               </li>
             </Link>
+            <Link href="/#blogs">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:border-y-black ">
+                Blogs
+              </li>
+            </Link>
             <Link href="/#contact">
               <li className="ml-10 uppercase text-sm hover:border-b hover:border-y-black ">
                 Contact
@@ -149,6 +154,9 @@ const NavBar = () => {
                 </Link>
                 <Link href="/#projects">
                   <li className="py-4 text-sm">Projects</li>
+                </Link>
+                <Link href="/#blogs">
+                  <li className="py-4 text-sm">Blogs</li>
                 </Link>
                 <Link href="/#contact">
                   <li className="py-4 text-sm">Contact</li>
