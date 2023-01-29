@@ -7,6 +7,9 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const form = useRef();
@@ -33,6 +36,18 @@ const Contact = () => {
           setSubject("");
           setMessage("");
           setPhone("");
+          setTimeout(() => {
+            toast.success("Email Sent , I will get back to you soon", {
+              position: "top-center",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "colored",
+            });
+          }, 1000);
         },
         (error) => {
           console.log(error.text);
@@ -171,6 +186,7 @@ const Contact = () => {
             </div>
           </Link>
         </div>
+        <ToastContainer />
       </div>
     </div>
   );
