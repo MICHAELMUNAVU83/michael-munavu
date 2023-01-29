@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-const BlogItem = ({ title, image, blogUrl, description }) => {
+const BlogItem = ({ title, image, blogUrl, description, topics }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg shadow-gray-300">
+    <div className="max-w-sm h-full  rounded overflow-hidden shadow-lg shadow-gray-300">
       <Image
         className="rounded-xl group-hover:opacity-10 w-full h-64"
         src={image}
@@ -15,15 +15,16 @@ const BlogItem = ({ title, image, blogUrl, description }) => {
         <p className="text-gray-700 text-base">{description}</p>
       </div>
       <div className="px-6 pt-4 pb-2">
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #photography
+        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+          # {topics.split(",").join(" #")}
         </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #travel
-        </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #winter
-        </span>
+      </div>
+      <div className="flex justify-center">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2  my-2 px-2 rounded">
+          <a href={blogUrl} target="_blank" rel="noreferrer">
+            Read More
+          </a>
+        </button>
       </div>
     </div>
   );
