@@ -17,7 +17,7 @@ function cake() {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
           <h2 className="py-2">E commerce Cake Site</h2>
-          <p>React JS / Bootstrap CSS</p>
+          <p>React JS / Bootstrap CSS /JavaScript</p>
         </div>
       </div>
 
@@ -55,7 +55,7 @@ function cake() {
           <div className="p-2">
             <p className="text-center  font-semibold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
-              <p className="flex items-center text-gray-600 py-2 ">
+              <p className="flex items-center text-gray-600 py-2  ">
                 <RiRadioButtonFill className="pr-1" /> React JS
               </p>
               <p className="flex items-center text-gray-600 py-2 ">

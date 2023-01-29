@@ -23,7 +23,7 @@ function greenr() {
 
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5  gap-8 pt-5">
         <div className="col-span-4">
-        <p className="uppercase text-xltracking-widest text-[#5651e5] ">
+          <p className="uppercase text-xltracking-widest text-[#5651e5] ">
             Project
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
@@ -66,7 +66,7 @@ function greenr() {
               <p className="flex items-center text-gray-600 py-2 ">
                 <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
-              <p className="flex items-center text-gray-600 py-2 ">
+              <p className="flex items-center text-gray-600 py-2  ">
                 <RiRadioButtonFill className="pr-1" /> Ruby on Rails
               </p>
               <p className="flex items-center text-gray-600 py-2 ">

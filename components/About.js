@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="w-full h-screen md:h-screen p-2 flex items-center "
+      className="w-full h-full md:h-screen p-2 flex items-center "
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
@@ -21,10 +21,9 @@ const About = () => {
             became
             <span className=" text-[#5651e5]">
               {" "}
-              a full stack software engineer .
+              a full stack software engineer
             </span>{" "}
-            and
-            <span className=" text-[#5651e5]">Technical Writer</span>
+            and <span className=" text-[#5651e5]">Technical Writer</span>
           </p>
           <p className="py-2 text-gray-600">
             I have experienced working in technology for the{" "}
@@ -37,14 +36,14 @@ const About = () => {
               HTML, CSS, JS, React, Postgresql, Ruby on Rails,
             </span>{" "}
             and collaborated with developers across the globe . I have also
-            completed a software development program at
-            <span className=" text-[#5651e5]">Moringa School</span>
-            which is the top programming school in Kenya.
+            completed a software development program at the{" "}
+            <span className=" text-[#5651e5]">Moringa School</span> which is the
+            top programming school in Kenya.
           </p>
 
           <p className="py-2 text-gray-600">
             I have been part of a team that won two{" "}
-            <span className=" text-[#5651e5]">Hackathons in the past year</span>
+            <span className=" text-[#5651e5]">Hackathons in the past year</span>{" "}
             I was the lead backend engineer for both projects where we built a
             <span className=" text-[#5651e5]">
               system to help patients store and access their medical records
@@ -52,9 +51,9 @@ const About = () => {
             </span>
           </p>
           <p className="py-2 text-gray-600">
-            I noticed I love teaching and helping people learn new things. I
+            I noticed I love teaching and helping people learn new things. I{" "}
             <span className=" text-[#5651e5]">write technical articles</span> on
-            React and Ruby on Rails mostly on
+            React and Ruby on Rails mostly on{" "}
             <span className=" text-[#5651e5]">
               <a
                 href="https://medium.com/@michaelmunavu83"
