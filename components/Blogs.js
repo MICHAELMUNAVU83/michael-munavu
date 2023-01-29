@@ -1,17 +1,11 @@
 import React from "react";
 import BlogItem from "./BlogItem";
-import cake from "../public/assets/projects/cake.png";
-import events from "../public/assets/projects/events.png";
-import greenr from "../public/assets/projects/greenr.png";
-import house from "../public/assets/projects/house.png";
-import lifeline from "../public/assets/projects/lifeline.png";
-import movies from "../public/assets/projects/movies.png";
-import techmeout from "../public/assets/projects/tech-me-out.png";
-import votein from "../public/assets/projects/votein.png";
-import news from "../public/assets/projects/news.png";
-import mechanicall from "../public/assets/projects/mechanicall.png";
-import reactrecipe from "../public/assets/projects/reactrecipe.png";
-import store from "../public/assets/projects/store.png";
+import apiendpoints from "../public/assets/blogs/apiendpoints.png";
+import cloudinary from "../public/assets/blogs/cloudinary.png";
+import migrations from "../public/assets/blogs/migrations.png";
+import render from "../public/assets/blogs/render.png";
+import testing from "../public/assets/blogs/testing.png";
+import rubyclasses from "../public/assets/blogs/rubyclasses.png";
 const Blogs = () => {
   return (
     <div id="blogs" className="w-full">
@@ -22,77 +16,42 @@ const Blogs = () => {
         <h2 className="py-4">Some of my recent blogs</h2>
         <div className="grid md:grid-cols-3  gap-8">
           <BlogItem
-            title="Cake Shop Ecommerce"
-            image={cake}
-            projectUrl="/cake"
-            languages="React JS, Bootstrap, Ruby on Rails"
+            title="Deploying a Rails API to Render"
+            image={render}
+            blogUrl="https://medium.com/@michaelmunavu83/deploying-rails-only-api-with-render-97b39ef4aaf8"
+            description="With heroku free tier coming to an end I decided to move my Rails API to Render. Render is a platform that allows you to deploy your apps for free. It is a great alternative to Heroku. In this article, I will show you how to deploy your Rails API to Render."
           />
           <BlogItem
-            title="Medical Records App"
-            image={lifeline}
-            projectUrl="/lifeline"
-            languages="Ruby on Rails, Bootstrap"
+            title="Uploading Images to Cloudinary in React"
+            image={cloudinary}
+            blogUrl="https://medium.com/@michaelmunavu83/upload-images-and-videos-in-react-js-using-cloudinary-807328bd9ecf"
+            description="In this article, I will show you how to upload images and videos to Cloudinary in React JS. Cloudinary allows you to upload, store, manage, manipulate, and deliver images and videos."
           />
           <BlogItem
-            title="Mechanic Emergency Call App"
-            image={mechanicall}
-            projectUrl="/mechanicall"
-            languages="React JS, Bootstrap CSS, Ruby on Rails"
+            title="Testing Rails API with RSpec"
+            image={testing}
+            blogUrl="https://medium.com/@michaelmunavu83/testing-rails-api-endpoints-with-rspec-900af5d29651"
+            description="Testing yur Rails API endpoints is very important. In this article, I will show you how to test your Rails API endpoints with RSpec."
           />
           <BlogItem
-            title="House Hunting App"
-            image={house}
-            projectUrl="/house"
-            languages="React JS, Tailwind CSS"
+            title="Classes in Ruby"
+            image={rubyclasses}
+            blogUrl="https://medium.com/@michaelmunavu83/classes-in-ruby-542fa0a3ecc6"
+            description="In this article, I will show you how to create classes in Ruby. Classes are the building blocks of Ruby and are a very important concept to understand."
           />
           <BlogItem
-            title="Carbon Credit Trading Platform"
-            image={greenr}
-            projectUrl="/greenr"
-            languages="React JS, Tailwind CSS"
+            title="Migrations in Rails"
+            image={migrations}
+            blogUrl="https://medium.com/@michaelmunavu83/ruby-on-rails-migration-commands-4f451047ee93"
+            description="In this article, I will show you how to create migrations in Rails. Migrations are a very important concept in Rails and are used to create, modify, and delete tables in your database."
           />
           <BlogItem
-            title="Developer Events Site"
-            image={techmeout}
-            projectUrl="/techmeout"
-            languages="React JS, Tailwind CSS, Ruby on Rails"
+            title="Creating CRUD API Endpoints in Rails"
+            image={apiendpoints}
+            blogUrl="https://medium.com/@michaelmunavu83/setup-rails-api-crud-endpoints-5f0dd0873ff1"
+            description="In this article, I will show you how to create CRUD API endpoints in Rails. We create routes and controllers to handle the requests and responses."
           />
-          <BlogItem
-            title="Event Vendors Booking App"
-            image={events}
-            projectUrl="/socialmarket"
-            languages="React JS , Ruby on Rails"
-          />
-          <BlogItem
-            title="Movie App"
-            image={movies}
-            projectUrl="/movie"
-            languages="HTML, CSS, JavaScript"
-          />
-          <BlogItem
-            title="Company Voting App"
-            image={votein}
-            projectUrl="/votein"
-            languages="Ruby on Rails, Bootstrap"
-          />
-          <BlogItem
-            title="Live News App"
-            image={news}
-            projectUrl="/news"
-            languages="HTML , CSS, JavaScript"
-          />
-          <BlogItem
-            title="React Recipe App"
-            image={reactrecipe}
-            projectUrl="/reactrecipe"
-            languages="React JS, Bootstrap"
-          />
-          <BlogItem
-            title="Ecommerce Store App"
-            image={store}
-            projectUrl="/store"
-            languages="React JS, Bootstrap"
-          />
+        
         </div>
       </div>
     </div>
