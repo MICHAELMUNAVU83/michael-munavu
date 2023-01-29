@@ -8,6 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 import logo from "../public/assets/navLogo.png";
 import { useRouter } from "next/router";
+import { motion } from "framer-motion";
 const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
@@ -63,9 +64,11 @@ const NavBar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full py-4 px-2 2xl:px-16">
-        <Link href="/">
-          <Image src={logo} width={85} height={50} />
-        </Link>
+        <motion.div animate={{ rotate: 360 }} transition={{ duration: 2 }}>
+          <Link href="/">
+            <Image src={logo} width={85} height={50} />
+          </Link>
+        </motion.div>
         <div>
           <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
             <Link href="/">
