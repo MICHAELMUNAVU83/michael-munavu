@@ -7,7 +7,7 @@ import render from "../public/assets/blogs/render.png";
 import testing from "../public/assets/blogs/testing.png";
 import rubyclasses from "../public/assets/blogs/rubyclasses.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import 'swiper/css/pagination';
+
 const Blogs = () => {
   return (
     <div id="blogs" className="w-full">
@@ -18,9 +18,9 @@ const Blogs = () => {
         <h2 className="py-4">Some of my recent blogs</h2>
 
         <Swiper
+          slidesPerView={1}
           spaceBetween={50}
-          slidesPerView={3}
-          pagination={{ clickable: true}}
+          pagination={{ clickable: true }}
           loop="true"
           autoplay={{
             delay: 2500,
@@ -29,12 +29,12 @@ const Blogs = () => {
           breakpoints={{
             // when window width is >= 640px
             640: {
-              slidesPerView: 1,
-              spaceBetween: 20,
+              slidesPerView: 2,
+              spaceBetween: 30,
             },
             // when window width is >= 768px
             768: {
-              slidesPerView: 2,
+              slidesPerView: 3,
               spaceBetween: 40,
             },
             // when window width is >= 1024px
