@@ -1,9 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
+
 const BlogItem = ({ title, image, blogUrl, description, topics }) => {
   return (
-    <div className="max-w-sm h-full  rounded overflow-hidden shadow-lg shadow-gray-300">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg z-10 shadow-gray-300" style={{ height: "550px" }}>
       <Image
         className="rounded-xl group-hover:opacity-10 w-full h-64"
         src={image}
