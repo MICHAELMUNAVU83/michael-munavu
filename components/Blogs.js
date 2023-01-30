@@ -7,10 +7,11 @@ import render from "../public/assets/blogs/render.png";
 import testing from "../public/assets/blogs/testing.png";
 import rubyclasses from "../public/assets/blogs/rubyclasses.png";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Autoplay } from "swiper";
 
 const Blogs = () => {
   return (
-    <div id="blogs" className="w-full">
+    <div id="blogs" className="w-full h-full">
       <div className="max-w-[1240px] mx-auto px-2 py-10">
         <p className="text-xl tracking-wildest uppercase text-[#5651e5]">
           Blogs
@@ -18,13 +19,16 @@ const Blogs = () => {
         <h2 className="py-4">Some of my recent blogs</h2>
 
         <Swiper
+          modules={[Pagination, Autoplay]}
           slidesPerView={1}
           spaceBetween={50}
-          pagination={{ clickable: true }}
           loop="true"
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
           }}
           breakpoints={{
             // when window width is >= 640px
@@ -45,8 +49,9 @@ const Blogs = () => {
               title="Deploying a Rails API to Render"
               image={render}
               blogUrl="https://medium.com/@michaelmunavu83/deploying-rails-only-api-with-render-97b39ef4aaf8"
-              description="With heroku free tier coming to an end I decided to move my Rails API to Render. Render is a platform that allows you to deploy your apps for free. It is a great alternative to Heroku. In this article, I will show you how to deploy your Rails API to Render."
+              description="With heroku free tier coming to an end I decided to move my Rails API to Render. Render is  a great alternative to Heroku. In this article, I will show you how to deploy your Rails API to Render."
               topics="Rails API, Render"
+              className="flex justify-center"
             />
           </SwiperSlide>
           <SwiperSlide>
