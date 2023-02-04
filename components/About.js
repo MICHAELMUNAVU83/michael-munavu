@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import avatar from "../public/avatar.png";
+import profile from "../public/profile.png";
 import Link from "next/link";
 
 const About = () => {
@@ -77,7 +77,7 @@ const About = () => {
           </div>
           <div className="flex justify-center mt-5 relative bg-gradient-to-b  from-blue-500 overflow-hidden rounded-full w-80 h-80 m-auto hover:scale-105 ease-in duration-300 shadow-xl shadow-gray-600">
             <Image
-              src={avatar}
+              src={profile}
               alt="avatar"
               layout="fill"
               objectFit="cover"
