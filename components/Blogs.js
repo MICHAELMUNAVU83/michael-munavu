@@ -6,6 +6,7 @@ import migrations from "../public/assets/blogs/migrations.png";
 import render from "../public/assets/blogs/render.png";
 import testing from "../public/assets/blogs/testing.png";
 import rubyclasses from "../public/assets/blogs/rubyclasses.png";
+import uploadrails from "../public/assets/blogs/upload-rails.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 
@@ -97,6 +98,16 @@ const Blogs = () => {
               blogUrl="https://medium.com/@michaelmunavu83/setup-rails-api-crud-endpoints-5f0dd0873ff1"
               description="In this article, I will show you how to create CRUD API endpoints in Rails. We create routes and controllers to handle the requests and responses."
               topics="Rails API, CRUD"
+            />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <BlogItem
+              title="Uploading Images to Cloudinary in Rails"
+              image={uploadrails}
+              blogUrl="https://medium.com/@michaelmunavu83/upload-images-in-a-rails-app-7645b3bf2f76"
+              description="In this article, I will show you how to upload images to Cloudinary in Rails. Cloudinary allows you to upload, store, manage, manipulate, and deliver images and videos."
+              topics="Ruby on Rails, Cloudinary"
             />
           </SwiperSlide>
         </Swiper>
