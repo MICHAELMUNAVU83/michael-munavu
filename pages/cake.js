@@ -38,7 +38,7 @@ function cake() {
               target="_blank"
               rel="noreferrer"
             >
-              Demo
+             Live Demo
             </a>
           </button>
           <button className="px-8 py-2 mt-4">

@@ -36,11 +36,11 @@ function lifeline() {
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a
-              href="https://lifeline-wed.herokuapp.com/"
+              href="https://lifeline.herokuapp.com/"
               target="_blank"
               rel="noreferrer"
             >
-              Demo
+             Live Demo
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
