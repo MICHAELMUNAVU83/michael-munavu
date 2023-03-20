@@ -12,9 +12,9 @@ import { Pagination, Autoplay } from "swiper";
 
 const Blogs = () => {
   return (
-    <div id="blogs" className="w-full h-full">
-      <div className="max-w-[1240px] mx-auto px-2 py-10">
-        <p className="text-xl tracking-wildest uppercase text-[#5651e5]">
+    <div id="blogs" className="w-full my-12">
+      <div className="max-w-[1240px] mx-auto px-2 my-10">
+        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Blogs
         </p>
         <h2 className="py-4">Some of my recent blogs</h2>

@@ -75,13 +75,13 @@ const About = () => {
               </Link>
             </p>
           </div>
-          <div className="flex justify-center mt-5 relative bg-gradient-to-b  from-blue-500 overflow-hidden rounded-full w-80 h-80 m-auto hover:scale-105 ease-in duration-300 shadow-xl shadow-gray-600">
+          <div className="flex justify-center mt-5 relative bg-gradient-to-b  from-blue-500 overflow-hidden rounded-full md:w-96 md:h-96 w-80 h-80 m-auto hover:scale-105 ease-in duration-300 shadow-xl shadow-gray-600">
             <Image
               src={profile}
               alt="avatar"
               layout="fill"
               objectFit="cover"
-              className="flex justify-center rounded-full shadow-lg shadow-gray-400"
+              className="flex rotate-270 justify-center rounded-full shadow-lg shadow-gray-400"
             />
           </div>
         </div>
