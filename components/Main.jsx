@@ -22,7 +22,7 @@ const Main = () => {
             </h1>
             <h2 className=" text-gray-700 text-center">I am a</h2>
 
-            <h1 className="py-3 text-[#5651e5]">
+            <h1 className="py-3 md:text-3xl text-md text-[#5651e5]">
               <Typewriter
                 options={{
                   strings: [
@@ -37,7 +37,7 @@ const Main = () => {
                 }}
               />
             </h1>
-            <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+            <p className="py-4 text-gray-600 max-w-[85%] m-auto">
               I am a full-stack developer with 3 years of experience being
               self-taught and having graduated from 2 bootcamps. I have
               worked on a variety of projects from small to large scale
