@@ -1,23 +1,23 @@
 import React from "react";
 import Image from "next/image";
-import mechanicallpic from "../public/assets/projects/mechanicall.png";
+import zero22pic from "../public/assets/projects/zero22.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-function mechanicall() {
+function zero22() {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" absolute top-0 left-0 w-full  h-[30vh] lg:h-[40vh] bg-black/70 z-10" />
         <Image
-          src={mechanicallpic}
+          src={zero22pic}
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
-          <h2 className="py-2">Lifeline</h2>
-          <p>Ruby on Rails / React JS / Bootstrap / Geolocation API</p>
+          <h2 className="py-2">Zero 22 Gym Thika</h2>
+          <p>Next JS / Tailwind CSS </p>
         </div>
       </div>
 
@@ -28,15 +28,11 @@ function mechanicall() {
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-            This is a site that allows users to book appointments with mechanics
-            whenever you need them and you don't know where to find them. It is
-            built with React JS , Bootstrap CSS and Ruby on Rails. It uses
-            Geolocation to find the nearest mechanic to the user.
+          This is a gym website where you can see the different programmes they offer and classes they have on various days .
           </p>
-
           <button className="px-8 py-2  mt-4 mr-8">
             <a
-              href="https://mechanicall-frontend.vercel.app/"
+              href="https://gibbzthazero22.com/"
               target="_blank"
               rel="noreferrer"
             >
@@ -45,7 +41,7 @@ function mechanicall() {
           </button>
           <button className="px-8 py-2 mt-4">
             <a
-              href="https://github.com/MICHAELMUNAVU83/mechanicall-frontend"
+              href="https://github.com/MICHAELMUNAVU83/zero22-frontend"
               target="_blank"
               rel="noreferrer"
             >
@@ -57,17 +53,12 @@ function mechanicall() {
           <div className="p-2">
             <p className="text-center  font-semibold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
+             
               <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Ruby on Rails
+                <RiRadioButtonFill className="pr-1" /> Next JS
               </p>
               <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1" /> React JS
-              </p>
-              <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Bootstrap
-              </p>
-              <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1" /> Geolocation API
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
             </div>
           </div>
@@ -80,4 +71,4 @@ function mechanicall() {
   );
 }
 
-export default mechanicall;
+export default zero22;

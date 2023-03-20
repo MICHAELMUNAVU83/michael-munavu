@@ -12,6 +12,7 @@ import store from "../public/assets/projects/store.png";
 import nike from "../public/assets/projects/nike-clone.png";
 import daqchild from "../public/assets/projects/daqchild.png";
 import oraimo from "../public/assets/projects/oraimo-clone.png";
+import zero22 from "../public/assets/projects/zero22.png";
 
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -24,7 +25,7 @@ const Projects = () => {
         <h2 className="py-4">Some of my recent projects</h2>
         <div className="grid md:grid-cols-2  gap-8">
           <ProjectItem
-            title="Medical Records App"
+            title="Lifeline Medical Records App"
             image={lifeline}
             projectUrl="/lifeline"
             languages="Ruby on Rails, Bootstrap"
@@ -87,6 +88,18 @@ const Projects = () => {
             image={nike}
             projectUrl="/nike"
             languages="React JS, Tailwind CSS"
+          />
+          <ProjectItem
+            title="Live News App"
+            image={news}
+            projectUrl="/news"
+            languages="HTML, CSS, JavaScript"
+          />
+          <ProjectItem
+            title="Zero22 Gym Website"
+            image={zero22}
+            projectUrl="/zero22"
+            languages="Next JS, Tailwind CSS"
           />
         </div>
       </div>
