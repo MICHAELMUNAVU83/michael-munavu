@@ -90,7 +90,7 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-10">Connect with me</p>
                 <div className="flex items-center justify-between  m-auto py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer  hover:scale-110 ease-in   duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">
                     <a
                       href="https://www.linkedin.com/in/michael-munavu-0b0b1b1b9/"
                       target="_blank"
@@ -99,7 +99,7 @@ const Contact = () => {
                       <FaLinkedin />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in   duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
                       href="https://github.com/MICHAELMUNAVU83"
                       target="_blank"
@@ -108,7 +108,7 @@ const Contact = () => {
                       <FaGithub />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in   duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
                       href="https://twitter.com/MichaelTrance1"
                       target="_blank"
@@ -117,12 +117,12 @@ const Contact = () => {
                       <FaTwitter />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in   duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a rel="noopener noreferrer" href="tel:0740769596">
                       <FiPhoneCall />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in   duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer hover:scale-110 ease-in   duration-300">
                     <a
                       href="https://wa.me/254740769596"
                       target="_blank"

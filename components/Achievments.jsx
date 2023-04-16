@@ -34,18 +34,18 @@ const Achievments = () => {
           <Image
             src={hackathon5}
             alt="hackathon1"
-            className="md:h-[400px] h-[400px] mx-auto w-[400px] md:w-[850px]"
+            className="md:h-[400px] md:h-[400px] mx-auto w-[400px] md:w-[850px]"
           />
           <div className="flex  md:flex-row flex-col  md:gap-2 gap-4  justify-between my-2 items-center">
             <Image
               src={hackathon2}
               alt="hackathon1"
-              className="md:w-[420px] w-[400px]  mx-auto h-[410px]"
+              className="md:w-[420px] w-[400px]  mx-auto md:h-[410px]"
             />
             <Image
               src={hackathon3}
               alt="hackathon1"
-              className="md:w-[420px] w-[400px] h-[410px]"
+              className="md:w-[420px] h-[500px] w-[400px] md:h-[410px]"
             />
           </div>
         </div>
@@ -54,12 +54,12 @@ const Achievments = () => {
           <Image
             src={hackathon4}
             alt="hackathon1"
-            className="h-[410px] w-[90%] mx-auto md:w-[100%]"
+            className="md:h-[410px] w-[90%] mx-auto md:w-[100%]"
           />
           <Image
             src={hackathon1}
             alt="hackathon1"
-            className="h-[410px] w-[90%] mx-auto  md:w-[100%]"
+            className="md:h-[410px] w-[90%] mx-auto  md:w-[100%]"
           />
         </div>
       </div>
