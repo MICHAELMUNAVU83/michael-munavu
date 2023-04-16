@@ -39,10 +39,10 @@ const Main = () => {
             </h1>
             <p className="py-4 text-gray-600 max-w-[85%] m-auto">
               I am a full-stack developer with 3 years of experience being
-              self-taught and having graduated from 2 bootcamps. I have
-              worked on a variety of projects from small to large scale
-              projects. I am passionate about building beautiful and scalable
-              web applications.
+              self-taught and having graduated from 2 bootcamps , Micorverse and
+              Moringa . I have worked on a variety of projects from small to
+              large scale projects using React and Ruby on Rails . I am
+              passionate about building beautiful and scalable web applications.
             </p>
             <div className="flex items-center justify-between max-w-[330px] md:gap-4 gap-2 m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">

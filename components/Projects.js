@@ -24,7 +24,7 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-2">Some of my recent projects</h2>
-        <p className="  text-sm text-gray-500 mb-4    font-semibold">
+        <p className="  text-sm text-gray-500 mb-4   ">
           These are some of my best projects , here I used React JS for my
           frontend , Ruby and Rails for my backend and Tailwind CSS for Styling
           .

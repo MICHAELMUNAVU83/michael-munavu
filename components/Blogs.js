@@ -18,7 +18,7 @@ const Blogs = () => {
           Blogs
         </p>
         <h2 className="py-2">Some of my recent blogs</h2>
-        <p className="  text-sm text-gray-500 mb-4    font-semibold">
+        <p className="  text-sm text-gray-500 mb-4   ">
           I love documenting my work and teaching other developers as this is
           the way to learn, below are some of my articles on {""}
           <a
@@ -36,7 +36,7 @@ const Blogs = () => {
           slidesPerView={1}
           spaceBetween={50}
           loop="true"
-          className="md:h-[650px] md:h-[450px]"
+          className="md:h-[650px] h-[450px]"
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
