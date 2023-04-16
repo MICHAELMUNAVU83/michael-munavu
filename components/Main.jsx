@@ -44,8 +44,8 @@ const Main = () => {
               projects. I am passionate about building beautiful and scalable
               web applications.
             </p>
-            <div className="flex items-center justify-between max-w-[330px] gap-4 m-auto py-4">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer  hover:scale-110 ease-in   duration-300">
+            <div className="flex items-center justify-between max-w-[330px] md:gap-4 gap-2 m-auto py-4">
+              <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">
                 <a
                   href="https://www.linkedin.com/in/michael-munavu-0b0b1b1b9/"
                   target="_blank"
@@ -54,7 +54,7 @@ const Main = () => {
                   <FaLinkedin />
                 </a>
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in   duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
                 <a
                   href="https://github.com/MICHAELMUNAVU83"
                   target="_blank"
@@ -63,7 +63,7 @@ const Main = () => {
                   <FaGithub />
                 </a>
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in   duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
                 <a
                   href="https://twitter.com/MichaelTrance1"
                   target="_blank"
@@ -72,12 +72,12 @@ const Main = () => {
                   <FaTwitter />
                 </a>
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in   duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
                 <a rel="noopener noreferrer" href="tel:0740769596">
                   <FiPhoneCall />
                 </a>
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in   duration-300">
+              <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
                 <a
                   href="https://wa.me/254740769596"
                   target="_blank"

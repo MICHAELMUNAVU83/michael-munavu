@@ -10,7 +10,7 @@ const About = () => {
       className="w-full h-full md:h-screen p-2 flex items-center "
     >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2">
+        <div className="col-span-2 p-2">
           <p className="uppercase text-xltracking-widest text-[#5651e5] ">
             About
           </p>
@@ -79,7 +79,7 @@ const About = () => {
             alt="avatar"
             layout="fill"
             objectFit="cover"
-            className="flex rotate-270 justify-center rounded-full shadow-lg shadow-gray-400"
+            className="flex rotate-270 mx-auto justify-center rounded-full shadow-lg shadow-gray-400"
           />
         </div>
       </div>

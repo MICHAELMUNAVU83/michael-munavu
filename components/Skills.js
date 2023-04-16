@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
       <div id="skills" className="w-full  p-2 mt-2">
-        <div className="max-w-[1240px] m-auto flex  flex-col justify-center h-full">
+        <div className="max-w-[1240px] m-auto flex mx-auto  flex-col justify-center h-full">
           <p className="text-xl tracking-widest uppercase text-[#5651e5] ">
             Skills
           </p>
