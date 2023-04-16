@@ -29,28 +29,28 @@ const Achievments = () => {
         farmers. We have so far won 3 awards with Mche .
       </p>
 
-      <div className="flex justify-center gap-4 mt-12">
-        <div className="w-3/5 flex flex-col gap-6 ">
+      <div className="flex md:flex-row flex-col justify-center gap-4 mt-12">
+        <div className="md:w-3/5 w-[90%] mx-auto flex flex-col gap-6 ">
           <Image
             src={hackathon5}
             alt="hackathon1"
-            className="h-[400px] w-[850px]"
+            className="md:h-[400px] h-[400px] mx-auto w-[400px] md:w-[850px]"
           />
-          <div className="flex gap-2 justify-between my-2 items-center">
+          <div className="flex  md:flex-row flex-col  gap-2 justify-between my-2 items-center">
             <Image
               src={hackathon2}
               alt="hackathon1"
-              className="w-[420px] h-[410px]"
+              className="md:w-[420px] w-[400px]  mx-auto h-[410px]"
             />
             <Image
               src={hackathon3}
               alt="hackathon1"
-              className="w-[420px] h-[410px]"
+              className="md:w-[420px] w-[400px] h-[410px]"
             />
           </div>
         </div>
 
-        <div className="w-2/5 flex justify-center gap-4 flex-col  ">
+        <div className="md:w-3/5 w-[400px] mx-auto flex  flex-col justify-center gap-4   ">
           <Image src={hackathon4} alt="hackathon1" className="h-[410px]" />
           <Image src={hackathon1} alt="hackathon1" className="h-[410px]" />
         </div>
