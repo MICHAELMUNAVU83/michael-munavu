@@ -17,13 +17,26 @@ const Blogs = () => {
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Blogs
         </p>
-        <h2 className="py-4">Some of my recent blogs</h2>
+        <h2 className="py-2">Some of my recent blogs</h2>
+        <p className="  text-sm text-gray-500 mb-4    font-semibold">
+          I love documenting my work and teaching other developers as this is
+          the way to learn, below are some of my articles on {""}
+          <a
+            href="https://medium.com/@michaelmunavu83"
+            target="_blank"
+            rel="noreferrer"
+            className="text-[#5651e5] font-semibold"
+          >
+            Medium
+          </a>
+        </p>
 
         <Swiper
           modules={[Pagination, Autoplay]}
           slidesPerView={1}
           spaceBetween={50}
           loop="true"
+          className="h-[650px]"
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,

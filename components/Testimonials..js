@@ -26,15 +26,13 @@ const Testimonials = () => {
           spaceBetween: 50,
         },
       }}
-      pagination={{ clickable: true , dynamicBullets: true}}
+      pagination={{ clickable: true, dynamicBullets: true }}
       loop={true}
       autoplay={{
         delay: 2500,
         disableOnInteraction: false,
       }}
-    >
-      
-    </Swiper>
+    ></Swiper>
   );
 };
 

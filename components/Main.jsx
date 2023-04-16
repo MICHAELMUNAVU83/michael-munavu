@@ -44,7 +44,7 @@ const Main = () => {
               projects. I am passionate about building beautiful and scalable
               web applications.
             </p>
-            <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <div className="flex items-center justify-between max-w-[330px] gap-4 m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer  hover:scale-110 ease-in   duration-300">
                 <a
                   href="https://www.linkedin.com/in/michael-munavu-0b0b1b1b9/"

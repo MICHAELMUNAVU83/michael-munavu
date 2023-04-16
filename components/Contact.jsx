@@ -61,6 +61,10 @@ const Contact = () => {
           Contact
         </p>
         <h2 className="py-2">Get in Touch</h2>
+        <p className="  text-sm text-gray-500 mb-4    font-semibold">
+          Reach out to me for any freelancing opportunities , contract work or
+          just to say hi ! , I also offer mentorship to aspiring developers .
+        </p>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* { left} */}
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-300 rounded-xl p-4">

@@ -4,11 +4,11 @@ import Image from "next/image";
 const BlogItem = ({ title, image, blogUrl, description, topics }) => {
   return (
     <div
-      className="max-w-sm rounded overflow-hidden md:mx-0 mx-auto w-[400px] h-[500px] shadow-lg z-10 shadow-gray-300"
+      className="max-w-sm rounded hover:scale-105 duration-500 transition-all cursor-pointer overflow-hidden md:mx-0 mx-auto w-[400px] h-[600px] shadow-lg z-10 shadow-gray-300"
      
     >
       <Image
-        className="rounded-xl group-hover:opacity-10 w-full h-[200px] "
+        className="rounded-xl group-hover:opacity-10 w-[400px] h-[250px] "
         src={image}
         alt="project1"
       />

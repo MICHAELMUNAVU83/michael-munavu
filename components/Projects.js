@@ -13,6 +13,7 @@ import nike from "../public/assets/projects/nike-clone.png";
 import daqchild from "../public/assets/projects/daqchild.png";
 import oraimo from "../public/assets/projects/oraimo-clone.png";
 import zero22 from "../public/assets/projects/zero22.png";
+import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
 
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -22,19 +23,36 @@ const Projects = () => {
         <p className="text-xl tracking-wildest uppercase text-[#5651e5]">
           Projects
         </p>
-        <h2 className="py-4">Some of my recent projects</h2>
+        <h2 className="py-2">Some of my recent projects</h2>
+        <p className="  text-sm text-gray-500 mb-4    font-semibold">
+          These are some of my best projects , here I used React JS for my
+          frontend , Ruby and Rails for my backend and Tailwind CSS for Styling
+          .
+        </p>
         <div className="grid md:grid-cols-2  gap-8">
-          <ProjectItem
-            title="Lifeline Medical Records App"
-            image={lifeline}
-            projectUrl="/lifeline"
-            languages="Ruby on Rails, Bootstrap"
-          />
           <ProjectItem
             title="Gibbz Tha Daqchild Official Site"
             image={daqchild}
             projectUrl="/daqchild"
             languages="Ruby on Rails, React JS"
+          />
+          <ProjectItem
+            title="Meal Planning Website"
+            image={sisteskitchen}
+            projectUrl="/sisteskitchen"
+            languages="Ruby on Rails, React JS , Tailwind CSS"
+          />
+          <ProjectItem
+            title="Oraimo Clone Website"
+            image={oraimo}
+            projectUrl="/oraimo"
+            languages="React JS, Tailwind CSS, Ruby on Rails"
+          />
+          <ProjectItem
+            title="Zero22 Gym Website"
+            image={zero22}
+            projectUrl="/zero22"
+            languages="Next JS, Tailwind CSS"
           />
           <ProjectItem
             title="House Hunting App"
@@ -46,40 +64,6 @@ const Projects = () => {
             title="Developer Events Site"
             image={techmeout}
             projectUrl="/techmeout"
-            languages="React JS, Tailwind CSS, Ruby on Rails"
-          />
-          <ProjectItem
-            title="Cake Shop Ecommerce"
-            image={cake}
-            projectUrl="/cake"
-            languages="React JS, Bootstrap, Ruby on Rails"
-          />
-
-          <ProjectItem
-            title="Mechanic Emergency Call App"
-            image={mechanicall}
-            projectUrl="/mechanicall"
-            languages="React JS, Bootstrap CSS, Ruby on Rails"
-          />
-
-          <ProjectItem
-            title="Carbon Credit Trading Platform"
-            image={greenr}
-            projectUrl="/greenr"
-            languages="React JS, Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Event Vendors Booking App"
-            image={events}
-            projectUrl="/socialmarket"
-            languages="React JS , Ruby on Rails"
-          />
-
-          <ProjectItem
-            title="Oraimo Clone Website"
-            image={oraimo}
-            projectUrl="/oraimo"
             languages="React JS, Tailwind CSS, Ruby on Rails"
           />
 
@@ -95,13 +79,18 @@ const Projects = () => {
             projectUrl="/news"
             languages="HTML, CSS, JavaScript"
           />
-          <ProjectItem
-            title="Zero22 Gym Website"
-            image={zero22}
-            projectUrl="/zero22"
-            languages="Next JS, Tailwind CSS"
-          />
         </div>
+      </div>
+
+      <div className="flex justify-center items-center">
+        <a
+          className="bg-[#5651e5] text-white px-8 py-4  cursor-pointer shadow-gray-200 shadow-2xl hover:scale-105 transition-all duration-500 rounded-md text-sm font-semibold"
+          href="https://github.com/MICHAELMUNAVU83"
+          target="_blank"
+          rel="noreferrer"
+        >
+          See All My Projects
+        </a>
       </div>
     </div>
   );
