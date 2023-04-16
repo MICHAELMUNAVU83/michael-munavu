@@ -28,15 +28,16 @@ function zero22() {
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-          This is a gym website where you can see the different programmes they offer and classes they have on various days .
+            This is a gym website where you can see the different programmes
+            they offer and classes they have on various days .
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a
-              href="https://gibbzthazero22.com/"
+              href="https://zero22thika.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
-             Live Demo
+              Live Demo
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
@@ -51,13 +52,12 @@ function zero22() {
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
-            <p className="text-center  font-semibold pb-2">Technologies</p>
+            <p className="text-center  font-semibold pb-2 ">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
-             
-              <p className="flex items-center text-gray-600 py-2 ">
+              <p className="flex items-center text-gray-600 py-2  md:text-md text-sm ">
                 <RiRadioButtonFill className="pr-1" /> Next JS
               </p>
-              <p className="flex items-center text-gray-600 py-2 ">
+              <p className="flex items-center text-gray-600 py-2  md:text-md text-sm ">
                 <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
             </div>

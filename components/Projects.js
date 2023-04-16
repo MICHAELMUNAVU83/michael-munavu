@@ -42,12 +42,7 @@ const Projects = () => {
             projectUrl="/sisteskitchen"
             languages="Ruby on Rails, React JS , Tailwind CSS"
           />
-          <ProjectItem
-            title="Oraimo Clone Website"
-            image={oraimo}
-            projectUrl="/oraimo"
-            languages="React JS, Tailwind CSS, Ruby on Rails"
-          />
+
           <ProjectItem
             title="Zero22 Gym Website"
             image={zero22}
@@ -55,11 +50,18 @@ const Projects = () => {
             languages="Next JS, Tailwind CSS"
           />
           <ProjectItem
-            title="House Hunting App"
+            title="House Hunting Site"
             image={house}
             projectUrl="/house"
             languages="React JS, Tailwind CSS"
           />
+          <ProjectItem
+            title="Nike Clone Website"
+            image={nike}
+            projectUrl="/nike"
+            languages="React JS, Tailwind CSS"
+          />
+
           <ProjectItem
             title="Developer Events Site"
             image={techmeout}
@@ -68,10 +70,10 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Nike Clone Website"
-            image={nike}
-            projectUrl="/nike"
-            languages="React JS, Tailwind CSS"
+            title="Oraimo Clone Website"
+            image={oraimo}
+            projectUrl="/oraimo"
+            languages="React JS, Tailwind CSS, Ruby on Rails"
           />
           <ProjectItem
             title="Live News App"

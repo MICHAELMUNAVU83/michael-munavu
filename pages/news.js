@@ -56,13 +56,13 @@ function news() {
           <div className="p-2">
             <p className="text-center  font-semibold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
-              <p className="flex items-center text-gray-600 py-2 ">
+              <p className="flex items-center text-gray-600  md:text-md text-sm py-2 ">
                 <RiRadioButtonFill className="pr-1" /> HTML
               </p>
-              <p className="flex items-center text-gray-600 py-2 ">
+              <p className="flex items-center text-gray-600  md:text-md text-sm py-2 ">
                 <RiRadioButtonFill className="pr-1" /> CSS
               </p>
-              <p className="flex items-center text-gray-600 py-2 ">
+              <p className="flex items-center text-gray-600  md:text-md text-sm py-2 ">
                 <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
             </div>
