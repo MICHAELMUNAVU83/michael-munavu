@@ -172,7 +172,7 @@ const NavBar = () => {
                 <div className="flex items-center justify-between w-full  my-4 sm:w-[80%] w-100">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer  hover:scale-110 ease-in   duration-300">
                     <a
-                      href="https://www.linkedin.com/in/michael-munavu-0b0b1b1b9/"
+                      href="https://www.linkedin.com/in/michael-munavu/"
                       target="_blank"
                       rel="noreferrer"
                     >

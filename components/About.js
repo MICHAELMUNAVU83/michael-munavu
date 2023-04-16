@@ -16,10 +16,10 @@ const About = () => {
           </p>
           <h2 className="py-4">Who am I?</h2>
           <p className="py-2 text-gray-600">
-            I am a third year Telecommunications Engineering student at JKUAT
-            who was first a{" "}
-            <span className=" text-[#5651e5]">problem solver</span> and later
-            became
+            I am a student of Telecommunications Engineering at JKUAT. I
+            initially focused on{" "}
+            <span className=" text-[#5651e5]">problem-solving</span> before
+            transitioning into a
             <span className=" text-[#5651e5]">
               {" "}
               a full stack software engineer
@@ -27,36 +27,37 @@ const About = () => {
             and <span className=" text-[#5651e5]">Technical Writer</span>
           </p>
           <p className="py-2 text-gray-600">
-            I have experienced working in technology for the{" "}
-            <span className=" text-[#5651e5]">past 3 years</span> and a graduant
-            from <span className=" text-[#5651e5]">Microverse,</span> a remote
+            Over the last <span className=" text-[#5651e5]">three years</span> I
+            have gained considerable experience in the technology industry . I
+            am a graduate of {""}
+            <span className=" text-[#5651e5]">Microverse,</span> a remote
             International learning institution where I learned through pair
             programming and project building. We worked on many different
             technologies like{" "}
             <span className=" text-[#5651e5]">
               HTML, CSS, JS, React, Postgresql, Ruby on Rails,
             </span>{" "}
-            and collaborated with developers across the globe . I have also
-            completed a software development program at the{" "}
+            and collaborated with developers across the globe . Additionally, I
+            have completed a software development program at{" "}
             <span className=" text-[#5651e5]">Moringa School</span> which is the
-            top programming school in Kenya.
+            <span className=" text-[#5651e5]">top programming school</span> in
+            Kenya.
           </p>
 
           <p className="py-2 text-gray-600">
-            I have been part of a team that won five{" "}
+            In the past year, I have been part of a team that won{" "}
             <span className=" text-[#5651e5]">
-              Hackathons in the past year and this year we won the{" "}
+              2 Hackathons and 3 more start up competitions this year .
             </span>{" "}
             I was the lead backend engineer for both projects where we built a
             <span className=" text-[#5651e5]">
               system to help patients store and access their medical records
-              efficiently
+              more efficiently
             </span>
           </p>
           <p className="py-2 text-gray-600">
-            I noticed I love teaching and helping people learn new things. I{" "}
-            <span className=" text-[#5651e5]">write technical articles</span> on
-            React and Ruby on Rails mostly on{" "}
+            Through my experiences, I discovered my passion for teaching and
+            mentoring others. Currently, I write technical articles on{" "}
             <span className=" text-[#5651e5]">
               <a
                 href="https://medium.com/@michaelmunavu83"
