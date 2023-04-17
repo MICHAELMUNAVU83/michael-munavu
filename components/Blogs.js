@@ -36,7 +36,7 @@ const Blogs = () => {
           slidesPerView={1}
           spaceBetween={50}
           loop="true"
-          className="md:h-[650px] h-[450px]"
+          className="md:h-[650px] h-[600px] "
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,

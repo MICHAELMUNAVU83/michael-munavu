@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const BlogItem = ({ title, image, blogUrl, description, topics }) => {
   return (
-    <div className="max-w-sm rounded hover:scale-105 duration-500 transition-all cursor-pointer overflow-hidden md:mx-0 mx-auto w-[350px] md:w-[400px] md:h-[400px] md:h-[600px] shadow-lg z-10 shadow-gray-300">
+    <div className="max-w-sm rounded hover:scale-105 duration-500 transition-all cursor-pointer overflow-hidden md:mx-0 mx-auto w-[350px] md:w-[400px] h-[550px] md:h-[600px] shadow-lg z-10 shadow-gray-300">
       <Image
         className="rounded-xl group-hover:opacity-10 md:w-[400px] w-[350px] mx-auto h-[200px]  md:h-[250px] "
         src={image}
