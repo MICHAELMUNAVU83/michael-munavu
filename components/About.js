@@ -39,7 +39,7 @@ const About = () => {
             </span>{" "}
             and collaborated with developers across the globe . Additionally, I
             have completed a software development program at{" "}
-            <span className=" text-[#5651e5]">Moringa School</span> which is the
+            <span className=" text-[#5651e5]">Moringa School</span> which is the {" "}
             <span className=" text-[#5651e5]">top programming school</span> in
             Kenya.
           </p>
