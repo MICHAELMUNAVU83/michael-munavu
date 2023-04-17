@@ -11,7 +11,7 @@ const Main = () => {
       exit={{ opacity: 0, y: 30 }}
       transition={{ duration: 2 }}
     >
-      <div id="home" className="w-full pt-16 md:pt-0 h-screen text-center">
+      <div id="home" className="w-full pt-32 md:pt-0 h-screen text-center">
         <div className="max-w-[1240px] mx-auto h-full flex p-2 justify-center items-center">
           <div>
             <p className=" uppercase text-sm tracking-widest text-gray-600 ">
