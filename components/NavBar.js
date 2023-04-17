@@ -72,32 +72,32 @@ const NavBar = () => {
         <div>
           <ul className="hidden md:flex" style={{ color: `${linkColor}` }}>
             <Link href="/">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-blue-500 hover:scale-105 transition-all duration-all hover:border-y-black ">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black ">
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-blue-500 hover:scale-105 transition-all duration-all hover:border-y-black">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-blue-500 hover:scale-105 transition-all duration-all hover:border-y-black">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-blue-500 hover:scale-105 transition-all duration-all hover:border-y-black">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
                 Projects
               </li>
             </Link>
             <Link href="/#blogs">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-blue-500 hover:scale-105 transition-all duration-all hover:border-y-black">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
                 Blogs
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 uppercase text-sm hover:border-b hover:text-blue-500 hover:scale-105 transition-all duration-all hover:border-y-black">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
                 Contact
               </li>
             </Link>
