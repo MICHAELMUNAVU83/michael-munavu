@@ -14,7 +14,7 @@ const Main = () => {
       <div id="home" className="w-full h-screen text-center">
         <div className="max-w-[1240px] mx-auto h-full flex p-2 justify-center items-center">
           <div>
-            <p className="uppercase text-sm tracking-widest text-gray-600 ">
+            <p className=" uppercase text-sm tracking-widest text-gray-600 ">
               LET'S BUILD SOMETHING BEAUTIFUL
             </p>
             <h1 className="py-3 text-gray-700">
@@ -22,7 +22,7 @@ const Main = () => {
             </h1>
             <h2 className=" text-gray-700 text-center">I am a</h2>
 
-            <h1 className="py-3 md:text-3xl text-md text-[#5651e5]">
+            <h1 className="py-3 fjalla-one md:text-3xl text-md text-[#5651e5]">
               <Typewriter
                 options={{
                   strings: [
@@ -37,7 +37,7 @@ const Main = () => {
                 }}
               />
             </h1>
-            <p className="py-4 text-gray-600 max-w-[85%] m-auto">
+            <p className=" kulim-park py-4 text-gray-600 max-w-[85%] m-auto">
               Looking for a full-stack developer with a track record of success?
               Look no further! With 3 years of self-taught experience and
               graduation from top bootcamps Micorverse and Moringa, I have the

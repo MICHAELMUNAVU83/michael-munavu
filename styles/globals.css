@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Acme&family=Akronim&family=Alata&family=Amita:wght@700&family=Bakbak+One&family=Cinzel+Decorative:wght@700&family=Courgette&family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@400;500&family=Fjalla+One&family=Italiana&family=Italianno&family=Kulim+Park&family=Londrina+Shadow&family=Philosopher:wght@700&family=Quicksand:wght@500&family=Righteous&family=Signika:wght@700&family=Sofia+Sans+Semi+Condensed:wght@200&family=Tilt+Prism&family=Yanone+Kaffeesatz&display=swap");
 
 html {
-  scroll-behavior: smooth!important;
+  scroll-behavior: smooth !important;
 }
 @layer base {
   body {
@@ -33,4 +34,29 @@ html {
   button {
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
   }
+}
+
+.kulim-park {
+  font-family: "Kulim Park", sans-serif;
+}
+
+.alata {
+  font-family: "Alata", sans-serif;
+}
+
+.cinzel-decorative {
+  font-family: "Cinzel Decorative", cursive;
+}
+
+.delicious-handrawn {
+  font-family: "Delicious Handrawn", cursive;
+}
+
+.fjalla-one {
+  font-family: "Fjalla One", sans-serif;
+}
+
+
+.italiana {
+  font-family: "Italiana", cursive;
 }
