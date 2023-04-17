@@ -38,11 +38,14 @@ const Main = () => {
               />
             </h1>
             <p className="py-4 text-gray-600 max-w-[85%] m-auto">
-              I am a full-stack developer with 3 years of experience being
-              self-taught and having graduated from 2 bootcamps , Micorverse and
-              Moringa . I have worked on a variety of projects from small to
-              large scale projects using React and Ruby on Rails . I am
-              passionate about building beautiful and scalable web applications.
+              Looking for a full-stack developer with a track record of success?
+              Look no further! With 3 years of self-taught experience and
+              graduation from top bootcamps Micorverse and Moringa, I have the
+              skills and passion to build stunning, scalable web applications.
+              From small to large-scale projects, I have used React and Ruby on
+              Rails to create solutions that delight users and drive results. So
+              why settle for less when you can have the best? Let's build
+              something great together
             </p>
             <div className="flex items-center justify-between max-w-[330px] md:gap-4 gap-2 m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">
@@ -51,7 +54,7 @@ const Main = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin className="md:text-2xl text-md " />
                 </a>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
@@ -60,7 +63,7 @@ const Main = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaGithub />
+                  <FaGithub className="md:text-2xl text-md " />
                 </a>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
@@ -69,12 +72,12 @@ const Main = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaTwitter />
+                  <FaTwitter className="md:text-2xl text-md " />
                 </a>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
                 <a rel="noopener noreferrer" href="tel:0740769596">
-                  <FiPhoneCall />
+                  <FiPhoneCall className="md:text-2xl text-md " />
                 </a>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
@@ -83,7 +86,7 @@ const Main = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FaWhatsapp />
+                  <FaWhatsapp className="md:text-2xl text-md " />
                 </a>
               </div>
             </div>
