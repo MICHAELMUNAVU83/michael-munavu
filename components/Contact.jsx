@@ -21,37 +21,50 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_obtaxtx",
-        "template_6ec2bfx",
-        form.current,
-        "6M-rV1iiaVqa5DANh"
-      )
-      .then(
-        (result) => {
-          setName("");
-          setEmail("");
-          setSubject("");
-          setMessage("");
-          setPhone("");
-          setTimeout(() => {
-            toast.success("Email Sent , I will get back to you soon", {
-              position: "top-center",
-              autoClose: 5000,
-              hideProgressBar: false,
-              closeOnClick: true,
-              pauseOnHover: true,
-              draggable: true,
-              progress: undefined,
-              theme: "colored",
-            });
-          }, 1000);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    if (!name || !email || !subject || !message || !phone) {
+      toast.error("Please fill in all fields", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "colored",
+      });
+    } else {
+      emailjs
+        .sendForm(
+          "service_obtaxtx",
+          "template_6ec2bfx",
+          form.current,
+          "6M-rV1iiaVqa5DANh"
+        )
+        .then(
+          (result) => {
+            setName("");
+            setEmail("");
+            setSubject("");
+            setMessage("");
+            setPhone("");
+            setTimeout(() => {
+              toast.success("Email Sent , I will get back to you soon", {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "colored",
+              });
+            }, 1000);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
   };
 
   return (
