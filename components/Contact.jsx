@@ -96,7 +96,7 @@ const Contact = () => {
                 <p>Full Stack Web Developer</p>
                 <p className="text-gray-600 p-4">
                   {" "}
-                  I am available for full tie positions . Contact me and let's
+                  I am available for full time positions . Contact me and let's
                   talk{" "}
                 </p>
               </div>

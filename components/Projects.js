@@ -70,9 +70,9 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Oraimo Clone Website"
-            image={oraimo}
-            projectUrl="/oraimo"
+            title="Cake Website"
+            image={cake}
+            projectUrl="/cake"
             languages="React JS, Tailwind CSS, Ruby on Rails"
           />
           <ProjectItem
