@@ -73,4 +73,4 @@ function kinywa() {
   );
 }
 
-export default lifeline;
+export default kinywa;
