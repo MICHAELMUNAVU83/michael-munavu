@@ -14,6 +14,7 @@ import daqchild from "../public/assets/projects/daqchild.png";
 import oraimo from "../public/assets/projects/oraimo-clone.png";
 import zero22 from "../public/assets/projects/zero22.png";
 import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
+import kinywa from "../public/assets/projects/kinywa.png";
 
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -30,6 +31,12 @@ const Projects = () => {
           .
         </p>
         <div className="grid md:grid-cols-2  gap-8">
+          <ProjectItem
+            title="Photpgrapher Portfolio"
+            image={kinywa}
+            projectUrl="/kinywa"
+            languages="React JS, Tailwind CSS"
+          />
           <ProjectItem
             title="Gibbz Tha Daqchild Official Site"
             image={daqchild}
@@ -69,12 +76,7 @@ const Projects = () => {
             languages="React JS, Tailwind CSS, Ruby on Rails"
           />
 
-          <ProjectItem
-            title="Cake Website"
-            image={cake}
-            projectUrl="/cake"
-            languages="React JS, Tailwind CSS, Ruby on Rails"
-          />
+         
           <ProjectItem
             title="Live News App"
             image={news}
