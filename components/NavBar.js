@@ -63,7 +63,7 @@ const NavBar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full py-4 px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full md:px-4 py-4 px-2 2xl:px-16">
         <motion.div animate={{ rotate: 360 }} transition={{ duration: 2 }}>
           <Link href="/">
             <Image src={logo} width={85} height={50} />
