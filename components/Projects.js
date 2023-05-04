@@ -15,6 +15,7 @@ import oraimo from "../public/assets/projects/oraimo-clone.png";
 import zero22 from "../public/assets/projects/zero22.png";
 import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
 import kinywa from "../public/assets/projects/kinywa.png";
+import mche from "../public/assets/projects/mche.png";
 
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -31,14 +32,20 @@ const Projects = () => {
           .
         </p>
         <div className="grid md:grid-cols-2  gap-8">
-
-        <ProjectItem
+          <ProjectItem
             title="Lifeline"
             image={lifeline}
             projectUrl="/lifeline"
             languages="Ruby on Rails, Bootstrap CSS"
           />
-          
+
+          <ProjectItem
+            title="Mche"
+            image={mche}
+            projectUrl="/mche"
+            languages="Ruby on Rails, React JS, Tailwind CSS"
+          />
+
           <ProjectItem
             title="Photpgrapher Portfolio"
             image={kinywa}
@@ -84,7 +91,6 @@ const Projects = () => {
             languages="React JS, Tailwind CSS, Ruby on Rails"
           />
 
-         
           <ProjectItem
             title="Live News App"
             image={news}
