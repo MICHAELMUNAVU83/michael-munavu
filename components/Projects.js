@@ -31,6 +31,14 @@ const Projects = () => {
           .
         </p>
         <div className="grid md:grid-cols-2  gap-8">
+
+        <ProjectItem
+            title="Lifeline"
+            image={lifeline}
+            projectUrl="/lifeline"
+            languages="Ruby on Rails, Bootstrap CSS"
+          />
+          
           <ProjectItem
             title="Photpgrapher Portfolio"
             image={kinywa}
