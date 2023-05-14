@@ -16,6 +16,7 @@ import zero22 from "../public/assets/projects/zero22.png";
 import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
 import kinywa from "../public/assets/projects/kinywa.png";
 import mche from "../public/assets/projects/mche.png";
+import kilush from "../public/assets/projects/kilush.png";
 
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -32,13 +33,6 @@ const Projects = () => {
           .
         </p>
         <div className="grid md:grid-cols-2  gap-8">
-          <ProjectItem
-            title="Lifeline"
-            image={lifeline}
-            projectUrl="/lifeline"
-            languages="Ruby on Rails, Bootstrap CSS"
-          />
-
           <ProjectItem
             title="Mche"
             image={mche}
@@ -85,9 +79,9 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Developer Events Site"
-            image={techmeout}
-            projectUrl="/techmeout"
+            title="Oraimo Clone Website"
+            image={oraimo}
+            projectUrl="/oraimo"
             languages="React JS, Tailwind CSS, Ruby on Rails"
           />
 
@@ -96,6 +90,13 @@ const Projects = () => {
             image={news}
             projectUrl="/news"
             languages="HTML, CSS, JavaScript"
+          />
+
+          <ProjectItem
+            title="Data Science Website"
+            image={kilush}
+            projectUrl="/kilush"
+            languages="React JS, Tailwind CSS"
           />
         </div>
       </div>

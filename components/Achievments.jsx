@@ -4,6 +4,7 @@ import hackathon2 from "../public/assets/achievements/hackathon2.jpeg";
 import hackathon3 from "../public/assets/achievements/hackathon3.jpeg";
 import hackathon4 from "../public/assets/achievements/hackathon4.jpeg";
 import hackathon5 from "../public/assets/achievements/hackathon5.jpeg";
+import hackathon6 from "../public/assets/achievements/hackathon6.jpeg";
 import Image from "next/image";
 const Achievments = () => {
   return (
@@ -12,7 +13,7 @@ const Achievments = () => {
         Achievements
       </p>
       <h2 className="py-4">What I have achieved so far</h2>
-      <p className="  text-sm text-gray-500   ">
+      <p className="  text-sm md:text-xl text-gray-500   ">
         During the year 2022 , I was able to participate in various hackathons
         and won 2 of them. I was the lead backend engineer for a project called
         lifeline which provides quick access to medical records . This year , me
@@ -26,31 +27,53 @@ const Achievments = () => {
           Kiprotich Kimutai
         </a>{" "}
         , worked on Mche, which offers a comprehensive solution to smallholder
-        farmers. We have so far won 3 awards with Mche .
+        farmers. We have so far won 3 awards with Mche . Collectively , I have
+        won <span className="text-[#5651e5]"> 6 awards </span> in hackathons
       </p>
 
       <div className="flex md:flex-row flex-col justify-center gap-4 mt-12">
-        <div className="md:w-3/5 w-[90%] mx-auto flex flex-col gap-6 ">
+        <div className="md:w-[50%] w-[90%] mx-auto flex flex-col gap-6 ">
           <Image
             src={hackathon5}
             alt="hackathon1"
-            className="md:h-[400px] md:h-[400px] mx-auto w-[400px] md:w-[850px]"
+            className="md:h-[400px] md:h-[400px] object-cover mx-auto w-[400px] md:w-[850px]"
           />
           <div className="flex  md:flex-row flex-col  md:gap-2 gap-4  justify-between my-2 items-center">
             <Image
               src={hackathon2}
               alt="hackathon1"
-              className="md:w-[420px] w-[400px]  mx-auto md:h-[410px]"
+              className="md:w-[50%] w-[400px] object-cover  mx-auto md:h-[410px]"
             />
             <Image
               src={hackathon3}
               alt="hackathon1"
-              className="md:w-[420px] h-[500px] w-[400px] md:h-[410px]"
+              className="md:w-[50%] h-[500px] object-cover w-[400px] md:h-[410px]"
             />
           </div>
         </div>
 
-        <div className="md:w-3/5  mx-auto flex  flex-col justify-center gap-4   ">
+
+        <div className="md:w-[50%] w-[90%] mx-auto flex flex-col gap-6 ">
+          <Image
+            src={hackathon4}
+            alt="hackathon1"
+            className="md:h-[400px] md:h-[400px] mx-auto w-[400px] md:w-[850px]"
+          />
+          <div className="flex  md:flex-row flex-col  md:gap-2 gap-4  justify-between my-2 items-center">
+            <Image
+              src={hackathon1}
+              alt="hackathon1"
+              className="md:w-[50%] w-[400px] object-cover  mx-auto md:h-[410px]"
+            />
+            <Image
+              src={hackathon6}
+              alt="hackathon6"
+              className="md:w-[50%] h-[500px] object-cover w-[400px] md:h-[410px]"
+            />
+          </div>
+        </div>
+
+        {/* <div className="md:w-3/5  mx-auto flex  flex-col justify-center gap-4   ">
           <Image
             src={hackathon4}
             alt="hackathon1"
@@ -61,7 +84,7 @@ const Achievments = () => {
             alt="hackathon1"
             className="md:h-[410px] w-[90%] mx-auto  md:w-[100%]"
           />
-        </div>
+        </div> */}
       </div>
 
       {/* <div className="flex justify-center mt-12">
