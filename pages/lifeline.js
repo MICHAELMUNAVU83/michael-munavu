@@ -37,7 +37,7 @@ function lifeline() {
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a
-              href="https://lifeline.herokuapp.com/"
+              href="https://lifeline-frontend.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >

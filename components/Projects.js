@@ -34,6 +34,12 @@ const Projects = () => {
         </p>
         <div className="grid md:grid-cols-2  gap-8">
           <ProjectItem
+            title="Lifeline"
+            image={lifeline}
+            projectUrl="/lifeline"
+            languages="React JS, Tailwind CSS, Ruby on Rails"
+          />
+          <ProjectItem
             title="Mche"
             image={mche}
             projectUrl="/mche"
@@ -51,6 +57,12 @@ const Projects = () => {
             image={daqchild}
             projectUrl="/daqchild"
             languages="Ruby on Rails, React JS"
+          />
+          <ProjectItem
+            title="Data Science Website"
+            image={kilush}
+            projectUrl="/kilush"
+            languages="React JS, Tailwind CSS"
           />
           <ProjectItem
             title="Meal Planning Website"
@@ -83,20 +95,6 @@ const Projects = () => {
             image={oraimo}
             projectUrl="/oraimo"
             languages="React JS, Tailwind CSS, Ruby on Rails"
-          />
-
-          <ProjectItem
-            title="Live News App"
-            image={news}
-            projectUrl="/news"
-            languages="HTML, CSS, JavaScript"
-          />
-
-          <ProjectItem
-            title="Data Science Website"
-            image={kilush}
-            projectUrl="/kilush"
-            languages="React JS, Tailwind CSS"
           />
         </div>
       </div>
