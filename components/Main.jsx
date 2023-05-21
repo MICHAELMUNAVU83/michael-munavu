@@ -42,8 +42,8 @@ const Main = () => {
               Look no further! With 3 years of self-taught experience and
               graduation from top bootcamps Micorverse and Moringa, I have the
               skills and passion to build stunning, scalable web applications.
-              From small to large-scale projects, I have used React and Ruby on
-              Rails to create solutions that delight users and drive results. So
+              From small to large-scale projects, I have used React , Ruby on
+              Rails , Elixir and Phoenix to create solutions that delight users and drive results. So
               why settle for less when you can have the best? Let's build
               something great together
             </p>

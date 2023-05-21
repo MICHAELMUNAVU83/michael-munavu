@@ -39,17 +39,27 @@ const About = () => {
             </span>{" "}
             and collaborated with developers across the globe . Additionally, I
             have completed a software development program at{" "}
-            <span className=" text-[#5651e5]">Moringa School</span> which is the {" "}
+            <span className=" text-[#5651e5]">Moringa School</span> which is the{" "}
             <span className=" text-[#5651e5]">top programming school</span> in
             Kenya.
+          </p>
+
+          <p>
+            I then started working on my own projects and exploring new
+            technologies like{" "}
+            <span className=" text-[#5651e5]">
+              Elixir , Phoenix , Next JS , Tailwind CSS , Docker and GraphQL
+            </span>{" "}
           </p>
 
           <p className="py-2 text-gray-600">
             In the past year, I have been part of a team that won{" "}
             <span className=" text-[#5651e5]">
-              2 Hackathons and 3 more start up competitions this year .
+              2 Hackathons and 5 more start up competitions this year .
             </span>{" "}
-            I was the lead backend engineer for both projects where we built a
+            . We have won a total of{" "}
+            <span className=" text-[#5651e5]"> 7 </span> competitions . I was
+            the lead backend engineer for both projects where we built a
             <span className=" text-[#5651e5]">
               system to help patients store and access their medical records
               more efficiently

@@ -8,6 +8,11 @@ import tailwind from "../public/assets/skills/tailwind.png";
 import nextjs from "../public/assets/skills/nextjs.png";
 import ruby from "../public/assets/skills/ruby.png";
 import rails from "../public/assets/skills/ruby-on-rails.png";
+import docker from "../public/assets/skills/docker.png";
+import graphql from "../public/assets/skills/graphql.png";
+import phoenix from "../public/assets/skills/phoenix.png";
+import elixir from "../public/assets/skills/elixir.png";
+
 import { motion } from "framer-motion";
 
 const Skills = () => {
@@ -19,7 +24,7 @@ const Skills = () => {
             Skills
           </p>
           <h2 className="py-4">What I can do</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 grid-cols-1 gap-8">
             <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
               <div className="grid grid-cols-2 gap-4  justify-center items-center">
                 <div className="m-auto">
@@ -103,6 +108,48 @@ const Skills = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>TAILWIND CSS</h3>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+              <div className="grid grid-cols-2 gap-4  justify-center items-center">
+                <div className="m-auto">
+                  <Image src={graphql} alt="html" width={50} height={50} />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>GRAPHQL</h3>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+              <div className="grid grid-cols-2 gap-4  justify-center items-center">
+                <div className="m-auto">
+                  <Image src={docker} alt="html" width={50} height={50} />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>DOCKER</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+              <div className="grid grid-cols-2 gap-4  justify-center items-center">
+                <div className="m-auto">
+                  <Image src={elixir} alt="html" width={50} height={50} />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>ELIXIR</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+              <div className="grid grid-cols-2 gap-4  justify-center items-center">
+                <div className="m-auto">
+                  <Image src={phoenix} alt="html" width={50} height={50} />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>PHOENIX</h3>
                 </div>
               </div>
             </div>

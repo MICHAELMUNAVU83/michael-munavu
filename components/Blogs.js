@@ -7,6 +7,7 @@ import render from "../public/assets/blogs/render.png";
 import testing from "../public/assets/blogs/testing.png";
 import rubyclasses from "../public/assets/blogs/rubyclasses.png";
 import uploadrails from "../public/assets/blogs/upload-rails.png";
+import validations from "../public/assets/blogs/validations.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 
@@ -59,6 +60,14 @@ const Blogs = () => {
           }}
         >
           <SwiperSlide>
+            <BlogItem
+              title="Validations in Phoenix Live View"
+              image={validations}
+              blogUrl="https://medium.com/@michaelmunavu83/unlock-the-power-of-validations-in-phoenix-live-view-ensuring-robust-user-input-69f77aed422c"
+              description="This article explores the importance of validations in Phoenix Live View, demonstrates effective implementation techniques, and highlights the benefits of real-time error feedback."
+              topics="Phoenix Live View, Elixir"
+              className="flex justify-center"
+            />
             <BlogItem
               title="Deploying a Rails API to Render"
               image={render}

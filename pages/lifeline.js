@@ -32,8 +32,8 @@ function lifeline() {
             their medical records. It is built with Ruby on Rails and Bootstrap
             CSS. It has a user authentication system and a each patient's data
             is saved as a QR code that can be scanned by a doctor and also
-            embedded into a NFC tag . (To access the site , use username :
-            michael and password : 123456)
+            embedded into a NFC tag . (To access the site , use email :
+            michael@gmail.com and password : 123456)
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a
