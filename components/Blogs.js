@@ -8,6 +8,7 @@ import testing from "../public/assets/blogs/testing.png";
 import rubyclasses from "../public/assets/blogs/rubyclasses.png";
 import uploadrails from "../public/assets/blogs/upload-rails.png";
 import validations from "../public/assets/blogs/validations.png";
+import library from "../public/assets/blogs/library.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 
@@ -60,6 +61,14 @@ const Blogs = () => {
           }}
         >
           <SwiperSlide>
+            <BlogItem
+              title="Library Management Stystem in Phoenix"
+              image={library}
+              blogUrl="https://medium.com/@michaelmunavu83/unleashing-efficiency-building-an-advanced-library-management-system-with-phoenix-e061dedbad00"
+              description="Unleashing Efficiency: Building an Advanced Library Management System with Phoenix."
+              topics="Phoenix Live View, Elixir"
+              className="flex justify-center"
+            />
             <BlogItem
               title="Validations in Phoenix Live View"
               image={validations}
