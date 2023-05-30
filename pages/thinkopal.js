@@ -1,22 +1,22 @@
 import React from "react";
 import Image from "next/image";
-import housepic from "../public/assets/projects/house.png";
+import thinkopalpic from "../public/assets/projects/thinkopal.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-function house() {
+function thinkopal() {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" absolute top-0 left-0 w-full  h-[30vh] lg:h-[40vh] bg-black/70 z-10" />
         <Image
-          src={housepic}
+          src={thinkopalpic}
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
-          <h2 className="py-2">Real Estate Site</h2>
+          <h2 className="py-2">Thinkopal Website</h2>
           <p>React JS / Tailwind CSS </p>
         </div>
       </div>
@@ -27,26 +27,23 @@ function house() {
             Project
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
-
           <p>
-            This is a house hunting real estate site. It is built with React JS
-            and Bootstrap CSS. It has a filter system that allows users to
-            choose the type of house they want to buy. It also has a system that
-            allows users to save houses they like . It also has a video for each
-            house that is displayed on the site.
+            This is a website for a company called Thinkopal. It is built with
+            React JS and Tailwind CSS for styling. Thinkopal helps small
+            businesses to grow by providing them with the right tools .
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a
-              href="https://house-hounter.netlify.app/"
+              href="https://thinkopal-development.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
-              Live Demo
+              Demo
             </a>
           </button>
           <button className="px-8 py-2 mt-4">
             <a
-              href="https://github.com/MICHAELMUNAVU83/housing-frontend"
+              href="https://github.com/MICHAELMUNAVU83/thinkopal"
               target="_blank"
               rel="noreferrer"
             >
@@ -58,16 +55,11 @@ function house() {
           <div className="p-2">
             <p className="text-center  font-semibold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
-              <p className="flex items-center text-gray-600 md:text-md text-sm py-2 ">
+              <p className="flex items-center text-gray-600 py-2 ">
                 <RiRadioButtonFill className="pr-1" /> React JS
               </p>
               <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1  md:text-md text-sm" />{" "}
-                Tailwind CSS
-              </p>
-              <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1  md:text-md text-sm" /> Ruby
-                on Rails
+                <RiRadioButtonFill className="pr-1" /> Tailwind CSS
               </p>
             </div>
           </div>
@@ -80,4 +72,4 @@ function house() {
   );
 }
 
-export default house;
+export default thinkopal;

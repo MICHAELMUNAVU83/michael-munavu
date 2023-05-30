@@ -69,6 +69,8 @@ const Blogs = () => {
               topics="Phoenix Live View, Elixir"
               className="flex justify-center"
             />
+          </SwiperSlide>
+          <SwiperSlide>
             <BlogItem
               title="Validations in Phoenix Live View"
               image={validations}
@@ -77,6 +79,8 @@ const Blogs = () => {
               topics="Phoenix Live View, Elixir"
               className="flex justify-center"
             />
+          </SwiperSlide>
+          <SwiperSlide>
             <BlogItem
               title="Deploying a Rails API to Render"
               image={render}

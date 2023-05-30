@@ -17,6 +17,8 @@ import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
 import kinywa from "../public/assets/projects/kinywa.png";
 import mche from "../public/assets/projects/mche.png";
 import kilush from "../public/assets/projects/kilush.png";
+import smarie from "../public/assets/projects/smarie.png";
+import thinkopal from "../public/assets/projects/thinkopal.png";
 
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -34,22 +36,15 @@ const Projects = () => {
         </p>
         <div className="grid md:grid-cols-2  gap-8">
           <ProjectItem
-            title="Lifeline"
-            image={lifeline}
-            projectUrl="/lifeline"
-            languages="React JS, Tailwind CSS, Ruby on Rails"
-          />
-          <ProjectItem
-            title="Mche"
-            image={mche}
-            projectUrl="/mche"
-            languages="Ruby on Rails, React JS, Tailwind CSS"
-          />
-
-          <ProjectItem
             title="Photpgrapher Portfolio"
             image={kinywa}
             projectUrl="/kinywa"
+            languages="React JS, Tailwind CSS"
+          />
+          <ProjectItem
+            title="Thinkopal Website"
+            image={thinkopal}
+            projectUrl="/thinkopal"
             languages="React JS, Tailwind CSS"
           />
           <ProjectItem
@@ -77,12 +72,21 @@ const Projects = () => {
             projectUrl="/zero22"
             languages="Next JS, Tailwind CSS"
           />
+
           <ProjectItem
-            title="House Hunting Site"
-            image={house}
-            projectUrl="/house"
+            title="Cleaning Services Website"
+            image={smarie}
+            projectUrl="/smarie"
             languages="React JS, Tailwind CSS"
           />
+
+          <ProjectItem
+            title="Real Estate Website"
+            image={house}
+            projectUrl="/house"
+            languages="React JS, Tailwind CSS, Ruby on Rails"
+          />
+
           <ProjectItem
             title="Nike Clone Website"
             image={nike}
