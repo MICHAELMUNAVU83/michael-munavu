@@ -34,7 +34,7 @@ function smarie() {
           </p>
           <button className="px-8 py-2  mt-4 mr-8">
             <a
-              href="https://smarie.netlify.app/"
+              href="https://www.sparklinkleen.com/"
               target="_blank"
               rel="noreferrer"
             >
