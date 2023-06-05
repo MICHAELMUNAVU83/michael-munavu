@@ -29,6 +29,8 @@ const Main = () => {
                     "Full Stack Developer",
                     "React Developer",
                     "Ruby on Rails Developer",
+                    "Phoenix Developer",
+                    "Elixir Developer",
                     "Technical Writer",
                   ],
                   autoStart: true,

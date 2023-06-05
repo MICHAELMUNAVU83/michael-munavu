@@ -59,7 +59,7 @@ const About = () => {
             </span>{" "}
             . We have won a total of{" "}
             <span className=" text-[#5651e5]"> 7 </span> competitions . I was
-            the lead backend engineer for both projects where we built a
+            the lead backend engineer for both projects where we built a{" "}
             <span className=" text-[#5651e5]">
               system to help patients store and access their medical records
               more efficiently

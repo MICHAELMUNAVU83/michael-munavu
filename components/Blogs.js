@@ -9,6 +9,7 @@ import rubyclasses from "../public/assets/blogs/rubyclasses.png";
 import uploadrails from "../public/assets/blogs/upload-rails.png";
 import validations from "../public/assets/blogs/validations.png";
 import library from "../public/assets/blogs/library.png";
+import phoenixliveviewuploads from "../public/assets/blogs/upload-phoenix-liveview.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 
@@ -60,6 +61,16 @@ const Blogs = () => {
             // when window width is >= 1024px
           }}
         >
+          <SwiperSlide>
+            <BlogItem
+              title="Uploading Images in Phoenix Live View"
+              image={phoenixliveviewuploads}
+              blogUrl="https://medium.com/@michaelmunavu83/uploading-images-in-phoenix-live-view-459b481a8385"
+              description="Uploading Images in Phoenix Live view "
+              topics="Phoenix Live View, Elixir"
+              className="flex justify-center"
+            />
+          </SwiperSlide>
           <SwiperSlide>
             <BlogItem
               title="Library Management Stystem in Phoenix"
