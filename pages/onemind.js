@@ -53,7 +53,7 @@ function onemind() {
           </button>
           <button className="px-8 py-2  mt-4 mr-8">
             <a
-              href="https://onemindstherapy.fly.dev/"
+              href="https://res.cloudinary.com/dakiak4mc/video/upload/v1689568489/Untitled_design_13_xkw1ao.mp4"
               target="_blank"
               rel="noreferrer"
             >
