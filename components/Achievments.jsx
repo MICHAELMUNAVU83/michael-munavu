@@ -5,6 +5,9 @@ import hackathon3 from "../public/assets/achievements/hackathon3.jpeg";
 import hackathon4 from "../public/assets/achievements/hackathon4.jpeg";
 import hackathon5 from "../public/assets/achievements/hackathon5.jpeg";
 import hackathon6 from "../public/assets/achievements/hackathon6.jpeg";
+import hackathon7 from "../public/assets/achievements/hackathon7.jpeg";
+import hackathon8 from "../public/assets/achievements/hackathon8.jpeg";
+import hackathon9 from "../public/assets/achievements/hackathon9.jpeg";
 import Image from "next/image";
 const Achievments = () => {
   return (
@@ -36,7 +39,7 @@ const Achievments = () => {
           <Image
             src={hackathon5}
             alt="hackathon1"
-            className="md:h-[400px] md:h-[400px] object-cover mx-auto w-[400px] md:w-[850px]"
+            className="md:h-[400px] object-cover mx-auto w-[400px] md:w-[850px]"
           />
           <div className="flex  md:flex-row flex-col  md:gap-2 gap-4  justify-between my-2 items-center">
             <Image
@@ -52,12 +55,11 @@ const Achievments = () => {
           </div>
         </div>
 
-
         <div className="md:w-[50%] w-[90%] mx-auto flex flex-col gap-6 ">
           <Image
             src={hackathon4}
             alt="hackathon1"
-            className="md:h-[400px] md:h-[400px] mx-auto w-[400px] md:w-[850px]"
+            className="md:h-[400px]  mx-auto w-[400px] md:w-[850px]"
           />
           <div className="flex  md:flex-row flex-col  md:gap-2 gap-4  justify-between my-2 items-center">
             <Image
@@ -72,19 +74,24 @@ const Achievments = () => {
             />
           </div>
         </div>
+      </div>
 
-        {/* <div className="md:w-3/5  mx-auto flex  flex-col justify-center gap-4   ">
-          <Image
-            src={hackathon4}
-            alt="hackathon1"
-            className="md:h-[410px] w-[90%] mx-auto md:w-[100%]"
-          />
-          <Image
-            src={hackathon1}
-            alt="hackathon1"
-            className="md:h-[410px] w-[90%] mx-auto  md:w-[100%]"
-          />
-        </div> */}
+      <div className="  grid md:grid-cols-3 w-[100%]  gap-4">
+        <Image
+          src={hackathon7}
+          alt="hackathon1"
+          className="  object-cover  mx-auto md:h-[410px]"
+        />
+        <Image
+          src={hackathon8}
+          alt="hackathon1"
+          className=" h-[500px] object-cover  md:h-[410px]"
+        />
+        <Image
+          src={hackathon9}
+          alt="hackathon1"
+          className=" h-[500px] object-cover  md:h-[410px]"
+        />
       </div>
 
       {/* <div className="flex justify-center mt-12">
