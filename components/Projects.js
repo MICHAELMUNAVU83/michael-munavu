@@ -19,6 +19,7 @@ import mche from "../public/assets/projects/mche.png";
 import kilush from "../public/assets/projects/kilush.png";
 import smarie from "../public/assets/projects/smarie.png";
 import thinkopal from "../public/assets/projects/thinkopal.png";
+import onemind from "../public/assets/projects/onemind.png";
 
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -31,7 +32,7 @@ const Projects = () => {
         <h2 className="py-2">Some of my recent projects</h2>
         <p className="  text-sm text-gray-500 mb-4   ">
           These are some of my best projects , here I used React JS for my
-          frontend , Ruby and Rails for my backend and Tailwind CSS for Styling
+          frontend , Ruby and Rails , Elixir and Phoenix Live View for my backend and Tailwind CSS for Styling
           .
         </p>
         <div className="grid md:grid-cols-2  gap-8">
@@ -40,6 +41,12 @@ const Projects = () => {
             image={kinywa}
             projectUrl="/kinywa"
             languages="React JS, Tailwind CSS"
+          />
+          <ProjectItem
+            title="Onemind"
+            image={onemind}
+            projectUrl="/onemind"
+            languages="ELixir , Phoenix , Tailwind CSS"
           />
           <ProjectItem
             title="Thinkopal Website"
@@ -99,6 +106,12 @@ const Projects = () => {
             image={oraimo}
             projectUrl="/oraimo"
             languages="React JS, Tailwind CSS, Ruby on Rails"
+          />
+          <ProjectItem
+            title="Live News Website"
+            image={news}
+            projectUrl="/news"
+            languages="HTML , CSS , JavaScript"
           />
         </div>
       </div>

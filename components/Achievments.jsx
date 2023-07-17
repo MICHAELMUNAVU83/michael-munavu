@@ -30,8 +30,8 @@ const Achievments = () => {
           Kiprotich Kimutai
         </a>{" "}
         , worked on Mche, which offers a comprehensive solution to smallholder
-        farmers. We have so far won 3 awards with Mche . Collectively , I have
-        won <span className="text-[#5651e5]"> 6 awards </span> in hackathons
+        farmers. We have so far won 5 awards with Mche . Collectively , I have
+        won <span className="text-[#5651e5]"> 10 awards </span> in hackathons
       </p>
 
       <div className="flex md:flex-row flex-col justify-center gap-4 mt-12">

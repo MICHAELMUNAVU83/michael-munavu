@@ -9,6 +9,8 @@ import rubyclasses from "../public/assets/blogs/rubyclasses.png";
 import uploadrails from "../public/assets/blogs/upload-rails.png";
 import validations from "../public/assets/blogs/validations.png";
 import library from "../public/assets/blogs/library.png";
+import addtocartblog from "../public/assets/blogs/addtocartblog.png";
+import livesearch from "../public/assets/blogs/livesearch.png";
 import phoenixliveviewuploads from "../public/assets/blogs/upload-phoenix-liveview.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
@@ -61,6 +63,26 @@ const Blogs = () => {
             // when window width is >= 1024px
           }}
         >
+          <SwiperSlide>
+            <BlogItem
+              title="Live Search in Phoenix Live View"
+              image={livesearch}
+              blogUrl="https://medium.com/@michaelmunavu83/enhancing-user-experience-with-live-search-feature-using-phoenix-live-view-and-elixir-41b215874f62"
+              description="Enhancing User Experience with Live Search Feature using Phoenix Live View"
+              topics="Phoenix Live View, Elixir"
+              className="flex justify-center"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <BlogItem
+              title="Add to Cart in Phoenix Live View"
+              image={addtocartblog}
+              blogUrl="https://medium.com/@michaelmunavu83/seamless-shopping-made-easy-building-an-intuitive-add-to-cart-feature-with-phoenix-liveview-278ca68bdb55"
+              description="Seamless Shopping Made Easy: Building an Intuitive Add to Cart Feature with Phoenix LiveView"
+              topics="Phoenix Live View, Elixir"
+              className="flex justify-center"
+            />
+          </SwiperSlide>
           <SwiperSlide>
             <BlogItem
               title="Uploading Images in Phoenix Live View"
