@@ -20,6 +20,7 @@ import kilush from "../public/assets/projects/kilush.png";
 import smarie from "../public/assets/projects/smarie.png";
 import thinkopal from "../public/assets/projects/thinkopal.png";
 import onemind from "../public/assets/projects/onemind.png";
+import engagepro from "../public/assets/projects/engagepro.png";
 
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -32,10 +33,16 @@ const Projects = () => {
         <h2 className="py-2">Some of my recent projects</h2>
         <p className="  text-sm text-gray-500 mb-4   ">
           These are some of my best projects , here I used React JS for my
-          frontend , Ruby and Rails , Elixir and Phoenix Live View for my backend and Tailwind CSS for Styling
-          .
+          frontend , Ruby and Rails , Elixir and Phoenix Live View for my
+          backend and Tailwind CSS for Styling .
         </p>
         <div className="grid md:grid-cols-2  gap-8">
+          <ProjectItem
+            title="EngagePro Employee Management System"
+            image={engagepro}
+            projectUrl="/engagepro"
+            languages="Elixir , Phoenix , Tailwind CSS"
+          />
           <ProjectItem
             title="Photpgrapher Portfolio"
             image={kinywa}
@@ -111,6 +118,12 @@ const Projects = () => {
             title="Live News Website"
             image={news}
             projectUrl="/news"
+            languages="HTML , CSS , JavaScript"
+          />
+          <ProjectItem
+            title="React Recipe Website"
+            image={reactrecipe}
+            projectUrl="/reactrecipe"
             languages="HTML , CSS , JavaScript"
           />
         </div>
