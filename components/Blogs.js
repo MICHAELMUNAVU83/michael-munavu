@@ -11,6 +11,7 @@ import validations from "../public/assets/blogs/validations.png";
 import library from "../public/assets/blogs/library.png";
 import addtocartblog from "../public/assets/blogs/addtocartblog.png";
 import livesearch from "../public/assets/blogs/livesearch.png";
+import pagination from "../public/assets/blogs/phoenixpagination.png";
 import phoenixliveviewuploads from "../public/assets/blogs/upload-phoenix-liveview.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
@@ -73,6 +74,18 @@ const Blogs = () => {
               className="flex justify-center"
             />
           </SwiperSlide>
+
+          <SwiperSlide>
+            <BlogItem
+              title="Pagination in Phoenix Live View"
+              image={pagination}
+              blogUrl="https://medium.com/@michaelmunavu83/streamlining-pagination-in-phoenix-live-view-with-scrivener-5ceb6e6fe642"
+              description="Streamlining Pagination in Phoenix Live View with Scrivener"
+              topics="Phoenix Live View, Elixir"
+              className="flex justify-center"
+            />
+          </SwiperSlide>
+
           <SwiperSlide>
             <BlogItem
               title="Add to Cart in Phoenix Live View"
