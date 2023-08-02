@@ -33,33 +33,37 @@ function onemind() {
             Live View that enables a doctor to add dates they are open and
             allows patients to book appointments in real time
           </p>
-          <button className="px-8 py-2  mt-4 mr-8">
-            <a
-              href="https://onemindstherapy.fly.dev/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </button>
-          <button className="px-8 py-2 mt-4">
-            <a
-              href="https://github.com/MICHAELMUNAVU83/housing-frontend"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Code
-            </a>
-          </button>
-          <button className="px-8 py-2  mt-4 mr-8">
-            <a
-              href="https://res.cloudinary.com/dakiak4mc/video/upload/v1689568489/Untitled_design_13_xkw1ao.mp4"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Video Demo
-            </a>
-          </button>
+          <div>
+            <button className="md:px-8 px-2 py-2  mt-4 mr-8">
+              <a
+                href="https://onemindstherapy.fly.dev/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
+            </button>
+
+            <button className="md:px-8 px-2 py-2  mt-4 mr-8">
+              <a
+                href="https://res.cloudinary.com/dakiak4mc/video/upload/v1689568489/Untitled_design_13_xkw1ao.mp4"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Video Demo
+              </a>
+            </button>
+
+            <button className="md:px-8 px-2 py-2 mt-4">
+              <a
+                href="https://github.com/MICHAELMUNAVU83/phoenix_therapist"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Code
+              </a>
+            </button>
+          </div>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

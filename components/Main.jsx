@@ -41,7 +41,7 @@ const Main = () => {
             </h1>
             <p className=" kulim-park py-4 text-gray-600 max-w-[85%] m-auto">
               Looking for a full-stack developer with a track record of success?
-              Look no further! With 3 years of self-taught experience and
+              Look no further! With 4 years of self-taught experience and
               graduation from top bootcamps Micorverse and Moringa, I have the
               skills and passion to build stunning, scalable web applications.
               From small to large-scale projects, I have used React , Ruby on
