@@ -58,13 +58,25 @@ const About = () => {
               2 Hackathons and 5 more start up competitions this year .
             </span>{" "}
             . We have won a total of{" "}
-            <span className=" text-[#5651e5]"> 7 </span> competitions . I was
+            <span className=" text-[#5651e5]"> 10 </span> competitions . I was
             the lead backend engineer for both projects where we built a{" "}
             <span className=" text-[#5651e5]">
               system to help patients store and access their medical records
               more efficiently
             </span>
           </p>
+
+          <p>
+            I have worked at{" "}
+            <span className=" text-[#5651e5]">
+              Uamuzi , Amaris Digital Solutions and GS1 Kenya
+            </span>{" "}
+            <p>
+              as a full stack developer building web based solutions for real world
+              projects.
+            </p>
+          </p>
+
           <p className="py-2 text-gray-600">
             Through my experiences, I discovered my passion for teaching and
             mentoring others. Currently, I write technical articles on{" "}
