@@ -21,7 +21,8 @@ import smarie from "../public/assets/projects/smarie.png";
 import thinkopal from "../public/assets/projects/thinkopal.png";
 import onemind from "../public/assets/projects/onemind.png";
 import engagepro from "../public/assets/projects/engagepro.png";
-
+import truckexpensesystem from "../public/assets/projects/truckexpensesystem.png";
+import peopleschoice from "../public/assets/projects/peopleschoice.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
@@ -47,6 +48,18 @@ const Projects = () => {
             title="Photpgrapher Portfolio"
             image={kinywa}
             projectUrl="/kinywa"
+            languages="React JS, Tailwind CSS"
+          />
+          <ProjectItem
+            title="Truck Expense System"
+            image={truckexpensesystem}
+            projectUrl="/truckexpensesystem"
+            languages="ELixir , Phoenix , Tailwind CSS"
+          />
+          <ProjectItem
+            title="People's Choice Africa Awards"
+            image={peopleschoice}
+            projectUrl="/peopleschoice"
             languages="React JS, Tailwind CSS"
           />
           <ProjectItem
