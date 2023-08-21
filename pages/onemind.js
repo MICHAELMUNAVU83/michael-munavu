@@ -36,7 +36,7 @@ function onemind() {
           <div>
             <button className="md:px-8 px-2 py-2  mt-4 mr-8">
               <a
-                href="https://onemindstherapy.fly.dev/"
+                href="https://ontheminds.fly.dev/"
                 target="_blank"
                 rel="noreferrer"
               >
