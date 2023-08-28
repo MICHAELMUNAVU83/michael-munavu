@@ -23,6 +23,7 @@ import onemind from "../public/assets/projects/onemind.png";
 import engagepro from "../public/assets/projects/engagepro.png";
 import truckexpensesystem from "../public/assets/projects/truckexpensesystem.png";
 import peopleschoice from "../public/assets/projects/peopleschoice.png";
+import allthingsocial from "../public/assets/projects/allthingsocial.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
@@ -51,9 +52,9 @@ const Projects = () => {
             languages="React JS, Tailwind CSS"
           />
           <ProjectItem
-            title="Truck Expense System"
-            image={truckexpensesystem}
-            projectUrl="/truckexpensesystem"
+            title="Influencer Management System"
+            image={allthingsocial}
+            projectUrl="/allthingsocial"
             languages="ELixir , Phoenix , Tailwind CSS"
           />
           <ProjectItem
