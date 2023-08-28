@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import allthingsocial from "../public/assets/projects/allthingsocial.png";
+import allthingsocialpic from "../public/assets/projects/allthingsocial.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -10,7 +10,7 @@ function allthingsocial() {
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" absolute top-0 left-0 w-full  h-[30vh] lg:h-[40vh] bg-black/70 z-10" />
         <Image
-          src={allthingsocial}
+          src={allthingsocialpic}
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
