@@ -8,6 +8,7 @@ import hackathon6 from "../public/assets/achievements/hackathon6.jpeg";
 import hackathon7 from "../public/assets/achievements/hackathon7.jpeg";
 import hackathon8 from "../public/assets/achievements/hackathon8.jpeg";
 import hackathon9 from "../public/assets/achievements/hackathon9.jpeg";
+import hackathon10 from "../public/assets/achievements/hackathon10.jpeg";
 import Image from "next/image";
 const Achievments = () => {
   return (
@@ -31,7 +32,11 @@ const Achievments = () => {
         </a>{" "}
         , worked on Mche, which offers a comprehensive solution to smallholder
         farmers. We have so far won 5 awards with Mche . Collectively , I have
-        won <span className="text-[#5651e5]"> 10 awards </span> in hackathons
+        won <span className="text-[#5651e5]"> 10 awards </span> in hackathons .
+        I have travelled to <span className="text-[#5651e5]"> Nigeria </span>{" "}
+        and to represent my country in a hackathon and was the{" "}
+        <span className="text-[#5651e5]">First Runners Up </span> in the{" "}
+        <span className="text-[#5651e5]"> Code Cash Crop Competition </span>{" "}
       </p>
 
       <div className="flex md:flex-row flex-col justify-center gap-4 mt-12">
@@ -93,6 +98,11 @@ const Achievments = () => {
           className=" h-[500px] object-cover  md:h-[410px]"
         />
       </div>
+      <Image
+        src={hackathon10}
+        alt="hackathon1"
+        className="md:h-[800px]  mt-4 mx-auto w-[100%]"
+      />
 
       {/* <div className="flex justify-center mt-12">
         <Image  src={sportpesalogo} alt="sportpesalogo" className="w-[200px]" />
