@@ -12,9 +12,11 @@ import library from "../public/assets/blogs/library.png";
 import addtocartblog from "../public/assets/blogs/addtocartblog.png";
 import livesearch from "../public/assets/blogs/livesearch.png";
 import pagination from "../public/assets/blogs/phoenixpagination.png";
+import sendsms from "../public/assets/blogs/sendsms.png";
 import phoenixliveviewuploads from "../public/assets/blogs/upload-phoenix-liveview.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
+import { send } from "@emailjs/browser";
 
 const Blogs = () => {
   return (
@@ -64,6 +66,16 @@ const Blogs = () => {
             // when window width is >= 1024px
           }}
         >
+          <SwiperSlide>
+            <BlogItem
+              title="Sending SMS in Phoenix Live View"
+              image={sendsms}
+              blogUrl="https://medium.com/@michaelmunavu83/sending-sms-using-your-phoenix-applications-69f29a1892f3"
+              description="We  dive into the world of Tiara Connect  the process of using it to send SMS messages via third-party APIs in Phoenix"
+              topics="Phoenix Live View, Elixir"
+              className="flex justify-center"
+            />
+          </SwiperSlide>
           <SwiperSlide>
             <BlogItem
               title="Live Search in Phoenix Live View"

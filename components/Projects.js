@@ -24,6 +24,7 @@ import engagepro from "../public/assets/projects/engagepro.png";
 import truckexpensesystem from "../public/assets/projects/truckexpensesystem.png";
 import peopleschoice from "../public/assets/projects/peopleschoice.png";
 import allthingsocial from "../public/assets/projects/allthingsocial.png";
+import thekultureke from "../public/assets/projects/thekultureke.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
@@ -39,6 +40,12 @@ const Projects = () => {
           backend and Tailwind CSS for Styling .
         </p>
         <div className="grid md:grid-cols-2  gap-8">
+          <ProjectItem
+            title="TheKultureKe Ticketing System"
+            image={thekultureke}
+            projectUrl="/thekultureke"
+            languages="Elixir , Phoenix LiveView"
+          />
           <ProjectItem
             title="EngagePro Employee Management System"
             image={engagepro}
@@ -132,12 +139,6 @@ const Projects = () => {
             title="Live News Website"
             image={news}
             projectUrl="/news"
-            languages="HTML , CSS , JavaScript"
-          />
-          <ProjectItem
-            title="React Recipe Website"
-            image={reactrecipe}
-            projectUrl="/reactrecipe"
             languages="HTML , CSS , JavaScript"
           />
         </div>
