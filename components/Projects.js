@@ -25,6 +25,7 @@ import truckexpensesystem from "../public/assets/projects/truckexpensesystem.png
 import peopleschoice from "../public/assets/projects/peopleschoice.png";
 import allthingsocial from "../public/assets/projects/allthingsocial.png";
 import thekultureke from "../public/assets/projects/thekultureke.png";
+import turningpoint from "../public/assets/projects/turningpoint.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
@@ -70,6 +71,7 @@ const Projects = () => {
             projectUrl="/peopleschoice"
             languages="React JS, Tailwind CSS"
           />
+
           <ProjectItem
             title="Onemind"
             image={onemind}
@@ -77,23 +79,31 @@ const Projects = () => {
             languages="ELixir , Phoenix , Tailwind CSS"
           />
           <ProjectItem
+            title="Turningpoint Official Website"
+            image={turningpoint}
+            projectUrl="/turningpoint"
+            languages="React JS, Tailwind CSS"
+          />
+          <ProjectItem
+            title="Cleaning Services Website"
+            image={smarie}
+            projectUrl="/smarie"
+            languages="React JS, Tailwind CSS"
+          />
+          <ProjectItem
             title="Thinkopal Website"
             image={thinkopal}
             projectUrl="/thinkopal"
             languages="React JS, Tailwind CSS"
           />
-          <ProjectItem
-            title="Gibbz Tha Daqchild Official Site"
-            image={daqchild}
-            projectUrl="/daqchild"
-            languages="Ruby on Rails, React JS"
-          />
+
           <ProjectItem
             title="Data Science Website"
             image={kilush}
             projectUrl="/kilush"
             languages="React JS, Tailwind CSS"
           />
+
           <ProjectItem
             title="Meal Planning Website"
             image={sisteskitchen}
@@ -109,13 +119,6 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Cleaning Services Website"
-            image={smarie}
-            projectUrl="/smarie"
-            languages="React JS, Tailwind CSS"
-          />
-
-          <ProjectItem
             title="Real Estate Website"
             image={house}
             projectUrl="/house"
@@ -123,23 +126,10 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Nike Clone Website"
-            image={nike}
-            projectUrl="/nike"
-            languages="React JS, Tailwind CSS"
-          />
-
-          <ProjectItem
             title="Oraimo Clone Website"
             image={oraimo}
             projectUrl="/oraimo"
             languages="React JS, Tailwind CSS, Ruby on Rails"
-          />
-          <ProjectItem
-            title="Live News Website"
-            image={news}
-            projectUrl="/news"
-            languages="HTML , CSS , JavaScript"
           />
         </div>
       </div>
