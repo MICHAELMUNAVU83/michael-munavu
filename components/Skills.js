@@ -68,27 +68,6 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
-              <div className="grid grid-cols-2 gap-4  justify-center items-center">
-                <div className="m-auto">
-                  <Image src={ruby} alt="html" width={50} height={50} />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>RUBY</h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
-              <div className="grid grid-cols-2 gap-4  justify-center items-center">
-                <div className="m-auto">
-                  <Image src={rails} alt="html" width={50} height={50} />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>RUBY ON RAILS</h3>
-                </div>
-              </div>
-            </div>
 
             <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
               <div className="grid grid-cols-2 gap-4  justify-center items-center">
@@ -111,27 +90,6 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
-              <div className="grid grid-cols-2 gap-4  justify-center items-center">
-                <div className="m-auto">
-                  <Image src={graphql} alt="html" width={50} height={50} />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>GRAPHQL</h3>
-                </div>
-              </div>
-            </div>
-            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
-              <div className="grid grid-cols-2 gap-4  justify-center items-center">
-                <div className="m-auto">
-                  <Image src={docker} alt="html" width={50} height={50} />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>DOCKER</h3>
-                </div>
-              </div>
-            </div>
-
             <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
               <div className="grid grid-cols-2 gap-4  justify-center items-center">
                 <div className="m-auto">
