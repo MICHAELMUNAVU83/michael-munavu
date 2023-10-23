@@ -27,10 +27,9 @@ const Main = () => {
                 options={{
                   strings: [
                     "Full Stack Developer",
-                    "React Developer",
+                    "React Js Developer",
                     "Phoenix Developer",
                     "Elixir Developer",
-                    "Ruby on Rails Developer",
                     "Technical Writer",
                   ],
                   autoStart: true,
