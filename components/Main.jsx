@@ -39,14 +39,15 @@ const Main = () => {
               />
             </h1>
             <p className=" kulim-park py-4 text-gray-600 max-w-[85%] m-auto">
-              Looking for a full-stack developer with a track record of success?
-              Look no further! With 4 years of self-taught experience and
-              graduation from top bootcamps Micorverse and Moringa, I have the
-              skills and passion to build stunning, scalable web applications.
-              From small to large-scale projects, I have used React , Elixir and
-              Phoenix to create solutions that delight users and drive results.
-              So why settle for less when you can have the best? Let's build
-              something great together
+              Looking for a full-stack developer with a track record of success
+              for yiur next project? Look no further! With 3 years of
+              self-taught experience and graduation from top bootcamps
+              Micorverse and Moringa, I have the skills and passion to build
+              stunning, scalable web applications. From small to large-scale
+              projects, I have used React , Elixir and Phoenix to create
+              solutions that delight users and drive results. So why settle for
+              less when you can have the best? Let's build something great
+              together
             </p>
             <div className="flex items-center justify-between max-w-[330px] md:gap-4 gap-2 m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">

@@ -72,8 +72,8 @@ const About = () => {
               Uamuzi , Amaris Digital Solutions and GS1 Kenya
             </span>{" "}
             <p>
-              as a full stack developer building web based solutions for real world
-              projects.
+              as a full stack developer building web based solutions for real
+              world projects.
             </p>
           </p>
 
@@ -87,6 +87,20 @@ const About = () => {
                 rel="noreferrer"
               >
                 Medium
+              </a>
+            </span>
+          </p>
+
+          <p className="py-2 text-gray-600">
+            I have written a hex package that allows elixir devs in Kenya to
+            integrate payments in their applications . You can check it out{" "}
+            <span className=" text-[#5651e5]">
+              <a
+                href="https://hex.pm/packages/chpter"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Chpter Hex Doc
               </a>
             </span>
           </p>
