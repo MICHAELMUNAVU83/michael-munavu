@@ -13,6 +13,8 @@ import addtocartblog from "../public/assets/blogs/addtocartblog.png";
 import livesearch from "../public/assets/blogs/livesearch.png";
 import pagination from "../public/assets/blogs/phoenixpagination.png";
 import sendsms from "../public/assets/blogs/sendsms.png";
+import chpter from "../public/assets/blogs/chpter.png";
+import testinglive from "../public/assets/blogs/testinglive.png";
 import phoenixliveviewuploads from "../public/assets/blogs/upload-phoenix-liveview.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
@@ -46,7 +48,7 @@ const Blogs = () => {
           loop="true"
           className="md:h-[650px] h-[600px] "
           autoplay={{
-            delay: 2500,
+            delay: 5000,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -66,6 +68,26 @@ const Blogs = () => {
             // when window width is >= 1024px
           }}
         >
+          <SwiperSlide>
+            <BlogItem
+              title="Testing Phoenix Live View"
+              image={testinglive}
+              blogUrl="https://medium.com/@michaelmunavu83/testing-phoenix-live-view-7851ccca6e37"
+              description="With testing, you write a test case against a certain event and you test once, if the test passes you are good.       "
+              topics="Phoenix Live View, Elixir"
+              className="flex justify-center"
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            <BlogItem
+              title="Using Chpter for Payments in Elixir"
+              image={chpter}
+              blogUrl="https://medium.com/@michaelmunavu83/using-chpter-api-for-mpesa-payments-in-elixir-and-phoenix-live-view-9406ac4d1039"
+              description="Payments are something we all need in our systems, In Kenya, the most popular payment API but their documentation is hell in my opinion and that is why I have opted for chpter in my systems, I have implemented it with Elixir and Phoenix Live View to create ticketing systems that never fail."
+              topics="Phoenix Live View, Elixir"
+              className="flex justify-center"
+            />
+          </SwiperSlide>
           <SwiperSlide>
             <BlogItem
               title="Sending SMS in Phoenix Live View"

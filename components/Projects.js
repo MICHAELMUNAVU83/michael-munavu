@@ -5,12 +5,14 @@ import greenr from "../public/assets/projects/greenr.png";
 import house from "../public/assets/projects/house.png";
 import lifeline from "../public/assets/projects/lifeline.png";
 import techmeout from "../public/assets/projects/tech-me-out.png";
+import kabarakexpress from "../public/assets/projects/kabarakexpress.png";
 import news from "../public/assets/projects/news.png";
 import mechanicall from "../public/assets/projects/mechanicall.png";
 import reactrecipe from "../public/assets/projects/reactrecipe.png";
 import store from "../public/assets/projects/store.png";
 import nike from "../public/assets/projects/nike-clone.png";
 import daqchild from "../public/assets/projects/daqchild.png";
+import mwamba from "../public/assets/projects/mwamba.png";
 import oraimo from "../public/assets/projects/oraimo-clone.png";
 import zero22 from "../public/assets/projects/zero22.png";
 import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
@@ -37,10 +39,16 @@ const Projects = () => {
         <h2 className="py-2">Some of my recent projects</h2>
         <p className="  text-sm text-gray-500 mb-4   ">
           These are some of my best projects , here I used React JS for my
-          frontend , Ruby and Rails , Elixir and Phoenix Live View for my
-          backend and Tailwind CSS for Styling .
+          frontend , Elixir and Phoenix Live View for my backend and Tailwind
+          CSS for Styling .
         </p>
         <div className="grid md:grid-cols-2  gap-8">
+          <ProjectItem
+            title="Mwamba RFC"
+            image={mwamba}
+            projectUrl="/mwamba"
+            languages="Elixir , Phoenix , Tailwind CSS"
+          />
           <ProjectItem
             title="TheKultureKe Ticketing System"
             image={thekultureke}
@@ -48,11 +56,12 @@ const Projects = () => {
             languages="Elixir , Phoenix LiveView"
           />
           <ProjectItem
-            title="EngagePro Employee Management System"
-            image={engagepro}
-            projectUrl="/engagepro"
+            title="Kabarak Express Website"
+            image={kabarakexpress}
+            projectUrl="/kabarakexpress"
             languages="Elixir , Phoenix , Tailwind CSS"
           />
+
           <ProjectItem
             title="Photpgrapher Portfolio"
             image={kinywa}
@@ -60,16 +69,30 @@ const Projects = () => {
             languages="React JS, Tailwind CSS"
           />
           <ProjectItem
+            title="People's Choice Africa Awards"
+            image={peopleschoice}
+            projectUrl="/peopleschoice"
+            languages="React JS, Tailwind CSS"
+          />
+          <ProjectItem
+            title="Thinkopal Website"
+            image={thinkopal}
+            projectUrl="/thinkopal"
+            languages="React JS, Tailwind CSS"
+          />
+
+          <ProjectItem
             title="Influencer Management System"
             image={allthingsocial}
             projectUrl="/allthingsocial"
             languages="ELixir , Phoenix , Tailwind CSS"
           />
+
           <ProjectItem
-            title="People's Choice Africa Awards"
-            image={peopleschoice}
-            projectUrl="/peopleschoice"
-            languages="React JS, Tailwind CSS"
+            title="EngagePro Employee Management System"
+            image={engagepro}
+            projectUrl="/engagepro"
+            languages="Elixir , Phoenix , Tailwind CSS"
           />
 
           <ProjectItem
@@ -88,12 +111,6 @@ const Projects = () => {
             title="Cleaning Services Website"
             image={smarie}
             projectUrl="/smarie"
-            languages="React JS, Tailwind CSS"
-          />
-          <ProjectItem
-            title="Thinkopal Website"
-            image={thinkopal}
-            projectUrl="/thinkopal"
             languages="React JS, Tailwind CSS"
           />
 
