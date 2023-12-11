@@ -16,10 +16,9 @@ const About = () => {
           </p>
           <h2 className="py-4">Who am I?</h2>
           <p className="py-2 text-gray-600">
-            I am a student of Telecommunications Engineering at JKUAT. I
-            initially focused on{" "}
-            <span className=" text-[#5651e5]">problem-solving</span> before
-            transitioning into a
+            I am a software engineer and full stack developer. I initially
+            focused on <span className=" text-[#5651e5]">problem-solving</span>{" "}
+            before transitioning into a
             <span className=" text-[#5651e5]">
               {" "}
               a full stack software engineer
