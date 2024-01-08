@@ -74,6 +74,15 @@ const About = () => {
               as a full stack developer building web based solutions for real
               world projects.
             </p>
+            I am currently at{" "}
+            <a
+              className=" text-[#5651e5] underline"
+              href="https://podiihq.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Podii Consultants
+            </a>{" "}
           </p>
 
           <p className="py-2 text-gray-600">

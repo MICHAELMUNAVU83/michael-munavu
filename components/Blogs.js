@@ -12,6 +12,7 @@ import library from "../public/assets/blogs/library.png";
 import addtocartblog from "../public/assets/blogs/addtocartblog.png";
 import livesearch from "../public/assets/blogs/livesearch.png";
 import pagination from "../public/assets/blogs/phoenixpagination.png";
+import elixirjwt from "../public/assets/blogs/elixirjwt.png";
 import sendsms from "../public/assets/blogs/sendsms.png";
 import chpter from "../public/assets/blogs/chpter.png";
 import testinglive from "../public/assets/blogs/testinglive.png";
@@ -68,6 +69,16 @@ const Blogs = () => {
             // when window width is >= 1024px
           }}
         >
+          <SwiperSlide>
+            <BlogItem
+              title="Elixir Api Authentication"
+              image={elixirjwt}
+              blogUrl="https://medium.com/@michaelmunavu83/testing-phoenix-live-view-7851ccca6e37"
+              description="In this article, I will show you how to implement JWT authentication in your Elixir API. We will use Guardian to implement JWT authentication."
+              topics="Elixir"
+              className="flex justify-center"
+            />
+          </SwiperSlide>
           <SwiperSlide>
             <BlogItem
               title="Testing Phoenix Live View"

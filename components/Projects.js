@@ -28,6 +28,7 @@ import peopleschoice from "../public/assets/projects/peopleschoice.png";
 import allthingsocial from "../public/assets/projects/allthingsocial.png";
 import thekultureke from "../public/assets/projects/thekultureke.png";
 import turningpoint from "../public/assets/projects/turningpoint.png";
+import pataride from "../public/assets/projects/pataride.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
@@ -44,22 +45,23 @@ const Projects = () => {
         </p>
         <div className="grid md:grid-cols-2  gap-8">
           <ProjectItem
-            title="Mwamba RFC"
-            image={mwamba}
-            projectUrl="/mwamba"
+            title="Mche"
+            image={mche}
+            projectUrl="/mche"
             languages="Elixir , Phoenix , Tailwind CSS"
           />
+          <ProjectItem
+            title="Pataride"
+            image={pataride}
+            projectUrl="/pataride"
+            languages="Elixir , Phoenix , Tailwind CSS"
+          />
+
           <ProjectItem
             title="TheKultureKe Ticketing System"
             image={thekultureke}
             projectUrl="/thekultureke"
             languages="Elixir , Phoenix LiveView"
-          />
-          <ProjectItem
-            title="Kabarak Express Website"
-            image={kabarakexpress}
-            projectUrl="/kabarakexpress"
-            languages="Elixir , Phoenix , Tailwind CSS"
           />
 
           <ProjectItem
