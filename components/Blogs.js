@@ -73,7 +73,7 @@ const Blogs = () => {
             <BlogItem
               title="Elixir Api Authentication"
               image={elixirjwt}
-              blogUrl="https://medium.com/@michaelmunavu83/testing-phoenix-live-view-7851ccca6e37"
+              blogUrl="https://medium.com/@michaelmunavu83/authenticate-elixir-apis-with-guardian-and-bcrypt-cd47f776f92d"
               description="In this article, I will show you how to implement JWT authentication in your Elixir API. We will use Guardian to implement JWT authentication."
               topics="Elixir"
               className="flex justify-center"
