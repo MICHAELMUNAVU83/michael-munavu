@@ -36,7 +36,28 @@ const Achievments = () => {
         I have travelled to <span className="text-[#5651e5]"> Nigeria </span>{" "}
         and to represent my country in a hackathon and was the{" "}
         <span className="text-[#5651e5]">First Runners Up </span> in the{" "}
-        <span className="text-[#5651e5]"> Code Cash Crop Competition </span>{" "}
+        <span className="text-[#5651e5]"> Code Cash Crop Competition </span> .
+        We now have systems in the entertainment and fintech space with{" "}
+        <a
+          href="https://lipiangoma.com"
+          target="_blank"
+          rel="noreferrer"
+          className="text-[#5651e5]"
+        >
+          {" "}
+          Lipia Ngoma{" "}
+        </a>{" "}
+        and in the logistics space with{" "}
+        <a
+          href="https://pataride.com"
+          target="_blank"
+          rel="noreferrer"
+          className="text-[#5651e5]"
+        >
+          {" "}
+          Pataride{" "}
+        </a>{" "}
+        .
       </p>
 
       <div className="flex md:flex-row flex-col justify-center gap-4 mt-12">
