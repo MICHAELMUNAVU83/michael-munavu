@@ -1,19 +1,7 @@
 import React from "react";
-import cake from "../public/assets/projects/cake.png";
-import events from "../public/assets/projects/events.png";
-import greenr from "../public/assets/projects/greenr.png";
+
 import house from "../public/assets/projects/house.png";
-import lifeline from "../public/assets/projects/lifeline.png";
-import techmeout from "../public/assets/projects/tech-me-out.png";
-import kabarakexpress from "../public/assets/projects/kabarakexpress.png";
-import news from "../public/assets/projects/news.png";
-import mechanicall from "../public/assets/projects/mechanicall.png";
-import reactrecipe from "../public/assets/projects/reactrecipe.png";
-import store from "../public/assets/projects/store.png";
-import nike from "../public/assets/projects/nike-clone.png";
-import daqchild from "../public/assets/projects/daqchild.png";
-import mwamba from "../public/assets/projects/mwamba.png";
-import oraimo from "../public/assets/projects/oraimo-clone.png";
+
 import zero22 from "../public/assets/projects/zero22.png";
 import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
 import kinywa from "../public/assets/projects/kinywa.png";
@@ -21,14 +9,14 @@ import mche from "../public/assets/projects/mche.png";
 import kilush from "../public/assets/projects/kilush.png";
 import smarie from "../public/assets/projects/smarie.png";
 import thinkopal from "../public/assets/projects/thinkopal.png";
-import onemind from "../public/assets/projects/onemind.png";
 import engagepro from "../public/assets/projects/engagepro.png";
-import truckexpensesystem from "../public/assets/projects/truckexpensesystem.png";
 import peopleschoice from "../public/assets/projects/peopleschoice.png";
 import allthingsocial from "../public/assets/projects/allthingsocial.png";
 import thekultureke from "../public/assets/projects/thekultureke.png";
-import turningpoint from "../public/assets/projects/turningpoint.png";
 import pataride from "../public/assets/projects/pataride.png";
+import bemyvalentine from "../public/assets/projects/bemyvalentine.png";
+import lipiangoma from "../public/assets/projects/lipiangoma.png";
+import summertides from "../public/assets/projects/summertides.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
@@ -50,10 +38,11 @@ const Projects = () => {
             projectUrl="/mche"
             languages="Elixir , Phoenix , Tailwind CSS"
           />
+
           <ProjectItem
-            title="Pataride"
-            image={pataride}
-            projectUrl="/pataride"
+            title="Lipia Ngoma"
+            image={lipiangoma}
+            projectUrl="/lipiangoma"
             languages="Elixir , Phoenix , Tailwind CSS"
           />
 
@@ -63,9 +52,34 @@ const Projects = () => {
             projectUrl="/thekultureke"
             languages="Elixir , Phoenix LiveView"
           />
+          <ProjectItem
+            title="Custom Valetine's Day Website"
+            image={bemyvalentine}
+            projectUrl="/bemyvalentine"
+            languages="Elixir , Phoenix LiveView"
+          />
+          <ProjectItem
+            title="Pataride"
+            image={pataride}
+            projectUrl="/pataride"
+            languages="Elixir , Phoenix , Tailwind CSS"
+          />
+          <ProjectItem
+            title="Influencer Management System"
+            image={allthingsocial}
+            projectUrl="/allthingsocial"
+            languages="ELixir , Phoenix , Tailwind CSS"
+          />
 
           <ProjectItem
-            title="Photpgrapher Portfolio"
+            title="Summertides"
+            image={summertides}
+            projectUrl="/summertides"
+            languages="React JS , Tailwind CSS"
+          />
+
+          <ProjectItem
+            title="Photographer Portfolio"
             image={kinywa}
             projectUrl="/kinywa"
             languages="React JS, Tailwind CSS"
@@ -76,19 +90,6 @@ const Projects = () => {
             projectUrl="/peopleschoice"
             languages="React JS, Tailwind CSS"
           />
-          <ProjectItem
-            title="Thinkopal Website"
-            image={thinkopal}
-            projectUrl="/thinkopal"
-            languages="React JS, Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Influencer Management System"
-            image={allthingsocial}
-            projectUrl="/allthingsocial"
-            languages="ELixir , Phoenix , Tailwind CSS"
-          />
 
           <ProjectItem
             title="EngagePro Employee Management System"
@@ -96,19 +97,13 @@ const Projects = () => {
             projectUrl="/engagepro"
             languages="Elixir , Phoenix , Tailwind CSS"
           />
-
           <ProjectItem
-            title="Onemind"
-            image={onemind}
-            projectUrl="/onemind"
-            languages="ELixir , Phoenix , Tailwind CSS"
-          />
-          <ProjectItem
-            title="Turningpoint Official Website"
-            image={turningpoint}
-            projectUrl="/turningpoint"
+            title="Thinkopal Website"
+            image={thinkopal}
+            projectUrl="/thinkopal"
             languages="React JS, Tailwind CSS"
           />
+
           <ProjectItem
             title="Cleaning Services Website"
             image={smarie}
@@ -141,13 +136,6 @@ const Projects = () => {
             title="Real Estate Website"
             image={house}
             projectUrl="/house"
-            languages="React JS, Tailwind CSS, Ruby on Rails"
-          />
-
-          <ProjectItem
-            title="Oraimo Clone Website"
-            image={oraimo}
-            projectUrl="/oraimo"
             languages="React JS, Tailwind CSS, Ruby on Rails"
           />
         </div>
