@@ -16,7 +16,7 @@ function allthingsocial() {
           objectFit="cover"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
-          <h2 className="py-2">Truck Expense System</h2>
+          <h2 className="py-2">Infuencer Management System</h2>
           <p>Elixir / Phoenix Live View / Tailwind CSS</p>
         </div>
       </div>
