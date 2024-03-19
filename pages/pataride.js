@@ -30,20 +30,25 @@ function pataride() {
           <p>
             Pataride is a carpooling platform that allows users to share rides
             with other users. It allows users to create rides and join rides
-                      created by other users. It also allows users to search for rides
+            created by other users. It also allows users to search for rides
             based on the departure and destination locations.
           </p>
           <div>
-            <button className="md:px-8 px-2 py-2  mt-4 mr-8">
-              <a
-                href="https://pataride.com"
-                target="_blank"
-                rel="noreferrer"
-              >
+            <button className="md:px-8 px-2 py-2   mt-4 mr-8">
+              <a href="https://pataride.com" target="_blank" rel="noreferrer">
                 Live Demo
               </a>
             </button>
-            
+
+            <button className="md:px-8 px-2 py-2   mt-4 mr-8">
+              <a
+                href="https://www.canva.com/design/DAFw4F4n4Ic/3x0ENHtMariqxc3mJg8Fzw/edit?utm_content=DAFw4F4n4Ic&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Video Demo
+              </a>
+            </button>
           </div>
         </div>
 

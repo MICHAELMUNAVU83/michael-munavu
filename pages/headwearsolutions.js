@@ -1,23 +1,23 @@
 import React from "react";
 import Image from "next/image";
-import engagepropic from "../public/assets/projects/engagepro.png";
+import headwearsolutionspic from "../public/assets/projects/headwearsolutions.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-function engagepro() {
+function headwearsolutions() {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" absolute top-0 left-0 w-full  h-[30vh] lg:h-[40vh] bg-black/70 z-10" />
         <Image
-          src={engagepropic}
+          src={headwearsolutionspic}
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
-          <h2 className="py-2">EngagePro Employee Management System</h2>
-          <p>Elixir / Phoenix Live View / Tailwind CSS</p>
+          <h2 className="py-2">Headwear Solutions Ecommerce System</h2>
+          <p>Elixir / Phoenix Live View / Tailwind CSS </p>
         </div>
       </div>
 
@@ -28,43 +28,30 @@ function engagepro() {
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-            EngagePro is an employee engagement app designed to improve
-            communication, collaboration, and engagement in the workplace. The
-            app provides a platform for employees to connect with each other,
-            share ideas, provide feedback on various company initiatives and
-            keep up on upcoming company events.
+            This is an ecommerce system that allows users to buy headwear
+            products. It allows users to view products, add products to cart and
+            checkout. Users can either pay with mobile money or credit card and
+            they can track their orders after purchase.
           </p>
-          <div>
-            <button className="md:px-8 px-2 py-2  mt-4 mr-8">
-              <a
-                href="https://engage-pro.fly.dev/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
-            </button>
-            <button className="md:px-8 px-2 py-2 mt-4">
-              <a
-                href="https://www.canva.com/design/DAFpFx_fzNQ/SYY87W0QGJ4ViJhxuBUS3A/edit?utm_content=DAFpFx_fzNQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Video Demo
-              </a>
-            </button>
-            <button className="md:px-8 px-2 py-2 ml-4 mt-4">
-              <a
-                href="https://github.com/MICHAELMUNAVU83/employee_management_system"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Code
-              </a>
-            </button>
-          </div>
+          <button className="px-8 py-2  mt-4 mr-8">
+            <a
+              href="https://headwearsolutions.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </button>
+          <button className="px-8 py-2 mt-4">
+            <a
+              href="https://www.canva.com/design/DAF_7cmkKUk/eULHwYTpEs8zTWeWXGdUng/edit?utm_content=DAF_7cmkKUk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Video Demo
+            </a>
+          </button>
         </div>
-
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center  font-semibold pb-2">Technologies</p>
@@ -89,4 +76,4 @@ function engagepro() {
   );
 }
 
-export default engagepro;
+export default headwearsolutions;

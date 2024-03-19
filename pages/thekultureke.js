@@ -35,7 +35,7 @@ function thekultureke() {
           </button>
           <button className="px-8 py-2 mt-4">
             <a
-              href="https://drive.google.com/file/d/1uAykHwH3UpPjA-D3FNyT7_5IDwLtEZvY/view?usp=sharing"
+              href="https://www.canva.com/design/DAFuDQO4ylE/Ud2nlAc6bd8ht-4mAn4XjQ/edit?utm_content=DAFuDQO4ylE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
               target="_blank"
               rel="noreferrer"
             >

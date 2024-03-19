@@ -44,7 +44,7 @@ function allthingsocial() {
             </button>
             <button className="md:px-8 px-2 py-2 mt-4">
               <a
-                href="https://drive.google.com/file/d/1mn1eWIRh7UGZg_LGkA4vhkveNOy9ktoE/view?usp=sharing"
+                href="https://www.canva.com/design/DAFszUqAws0/2LE52CWWdEaDOtb46K0UzQ/edit?utm_content=DAFszUqAws0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 target="_blank"
                 rel="noreferrer"
               >

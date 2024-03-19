@@ -17,6 +17,7 @@ import pataride from "../public/assets/projects/pataride.png";
 import bemyvalentine from "../public/assets/projects/bemyvalentine.png";
 import lipiangoma from "../public/assets/projects/lipiangoma.png";
 import summertides from "../public/assets/projects/summertides.png";
+import headwearsolutions from "../public/assets/projects/headwearsolutions.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
@@ -44,6 +45,13 @@ const Projects = () => {
             image={lipiangoma}
             projectUrl="/lipiangoma"
             languages="Elixir , Phoenix , Tailwind CSS"
+          />
+
+          <ProjectItem
+            title="Headwear Solutions Ecommerce System"
+            image={headwearsolutions}
+            projectUrl="/headwearsolutions"
+            languages="Elixir , Phoenix LiveView"
           />
 
           <ProjectItem
@@ -108,13 +116,6 @@ const Projects = () => {
             title="Cleaning Services Website"
             image={smarie}
             projectUrl="/smarie"
-            languages="React JS, Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Data Science Website"
-            image={kilush}
-            projectUrl="/kilush"
             languages="React JS, Tailwind CSS"
           />
 
