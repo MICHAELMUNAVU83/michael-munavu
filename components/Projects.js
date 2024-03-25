@@ -6,7 +6,7 @@ import zero22 from "../public/assets/projects/zero22.png";
 import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
 import kinywa from "../public/assets/projects/kinywa.png";
 import mche from "../public/assets/projects/mche.png";
-import kilush from "../public/assets/projects/kilush.png";
+import mwamba from "../public/assets/projects/mwamba.png";
 import smarie from "../public/assets/projects/smarie.png";
 import thinkopal from "../public/assets/projects/thinkopal.png";
 import engagepro from "../public/assets/projects/engagepro.png";
@@ -52,6 +52,12 @@ const Projects = () => {
             image={headwearsolutions}
             projectUrl="/headwearsolutions"
             languages="Elixir , Phoenix LiveView"
+          />
+          <ProjectItem
+            title="Mwamba RFC"
+            image={mwamba}
+            projectUrl="/mwamba"
+            languages="Elixir , Phoenix , Tailwind CSS"
           />
 
           <ProjectItem
