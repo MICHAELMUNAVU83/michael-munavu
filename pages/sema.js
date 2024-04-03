@@ -1,23 +1,23 @@
 import React from "react";
 import Image from "next/image";
-import kilushpic from "../public/assets/projects/kilush.png";
+import semapic from "../public/assets/projects/sema.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-function kilush() {
+function sema() {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" absolute top-0 left-0 w-full  h-[30vh] lg:h-[40vh] bg-black/70 z-10" />
         <Image
-          src={kilushpic}
+          src={semapic}
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
-          <h2 className="py-2">Data Science Website</h2>
-          <p>React JS / Tailwind CSS </p>
+          <h2 className="py-2">Sema Website</h2>
+          <p>Elixir / Phoenix Live View / Tailwind CSS </p>
         </div>
       </div>
 
@@ -28,27 +28,14 @@ function kilush() {
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-            This is a data science website built with React JS and Tailwind CSS
-            It has a slider that displays the data scienctist's work and a
-            contact form that allows users to send messages to the data
-            scientist.
+            This is a website for Sema , a system to connect Therapists and
+            Clients . We have a live chat feature that allows clients to chat
+            with therapists . We have a video call feature that allows clients
+            to have video calls with therapists .
           </p>
-          <button className="px-8 py-2  mt-4 mr-8">
-            <a
-              href="https://amoskibet.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </button>
-          <button className="px-8 py-2 mt-4">
-            <a
-              href="https://github.com/MICHAELMUNAVU83/kilush"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Code
+          <button className="px-8 py-2 mr-8  mt-4 ">
+            <a href="https://semawebapp.com" target="_blank" rel="noreferrer">
+              Demo
             </a>
           </button>
         </div>
@@ -57,7 +44,10 @@ function kilush() {
             <p className="text-center  font-semibold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
               <p className="flex items-center text-gray-600 py-2 ">
-                <RiRadioButtonFill className="pr-1" /> React JS
+                <RiRadioButtonFill className="pr-1" /> Elixir
+              </p>
+              <p className="flex items-center text-gray-600 py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Phoenix Live View
               </p>
               <p className="flex items-center text-gray-600 py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Tailwind CSS
@@ -73,4 +63,4 @@ function kilush() {
   );
 }
 
-export default kinywa;
+export default thekultureke;

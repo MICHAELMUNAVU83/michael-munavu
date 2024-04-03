@@ -28,6 +28,27 @@ const Skills = () => {
             <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
               <div className="grid grid-cols-2 gap-4  justify-center items-center">
                 <div className="m-auto">
+                  <Image src={elixir} alt="html" width={50} height={50} />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>ELIXIR</h3>
+                </div>
+              </div>
+            </div>
+
+            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+              <div className="grid grid-cols-2 gap-4  justify-center items-center">
+                <div className="m-auto">
+                  <Image src={phoenix} alt="html" width={50} height={50} />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3>PHOENIX</h3>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
+              <div className="grid grid-cols-2 gap-4  justify-center items-center">
+                <div className="m-auto">
                   <Image src={html} alt="html" width={50} height={50} />
                 </div>
                 <div className="flex flex-col items-center justify-center">
@@ -87,27 +108,6 @@ const Skills = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3>TAILWIND CSS</h3>
-                </div>
-              </div>
-            </div>
-            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
-              <div className="grid grid-cols-2 gap-4  justify-center items-center">
-                <div className="m-auto">
-                  <Image src={elixir} alt="html" width={50} height={50} />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>ELIXIR</h3>
-                </div>
-              </div>
-            </div>
-
-            <div className="p-6 shadow-xl rounded-xl  hover:scale-105 ease-in duration-300 cursor-pointer">
-              <div className="grid grid-cols-2 gap-4  justify-center items-center">
-                <div className="m-auto">
-                  <Image src={phoenix} alt="html" width={50} height={50} />
-                </div>
-                <div className="flex flex-col items-center justify-center">
-                  <h3>PHOENIX</h3>
                 </div>
               </div>
             </div>

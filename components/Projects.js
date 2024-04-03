@@ -1,7 +1,6 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { IoMdStar } from "react-icons/io";
 import house from "../public/assets/projects/house.png";
-
 import zero22 from "../public/assets/projects/zero22.png";
 import sisteskitchen from "../public/assets/projects/sisteskitchen.png";
 import kinywa from "../public/assets/projects/kinywa.png";
@@ -18,8 +17,316 @@ import bemyvalentine from "../public/assets/projects/bemyvalentine.png";
 import lipiangoma from "../public/assets/projects/lipiangoma.png";
 import summertides from "../public/assets/projects/summertides.png";
 import headwearsolutions from "../public/assets/projects/headwearsolutions.png";
+import oraimo from "../public/assets/projects/oraimo-clone.png";
+import turningpoint from "../public/assets/projects/turningpoint.png";
+import news from "../public/assets/projects/news.png";
+import kilush from "../public/assets/projects/kilush.png";
+import sema from "../public/assets/projects/sema.png";
+import qliq from "../public/assets/projects/qliq.png";
+import thrills from "../public/assets/projects/thrills.png";
+import kerry from "../public/assets/projects/kerry.png";
+
+import purefruit from "../public/assets/projects/purefruit.png";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
+  const [projectstoshow, setProjectsToShow] = useState("all");
+  const projects = [
+    {
+      title: "Mche",
+      image: mche,
+      projectUrl: "/mche",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Lipia Ngoma",
+      image: lipiangoma,
+      projectUrl: "/lipiangoma",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Sema Web App",
+      image: sema,
+      projectUrl: "/sema",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Headwear Solutions Ecommerce System",
+      image: headwearsolutions,
+      projectUrl: "/headwearsolutions",
+      languages: "Elixir , Phoenix LiveView",
+    },
+    {
+      title: "Mwamba RFC",
+      image: mwamba,
+      projectUrl: "/mwamba",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "TheKultureKe Ticketing System",
+      image: thekultureke,
+      projectUrl: "/thekultureke",
+      languages: "Elixir , Phoenix LiveView",
+    },
+    {
+      title: "Custom Valetine's Day Website",
+      image: bemyvalentine,
+      projectUrl: "/bemyvalentine",
+      languages: "Elixir , Phoenix LiveView",
+    },
+    {
+      title: "Pataride",
+      image: pataride,
+      projectUrl: "/pataride",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Influencer Management System",
+      image: allthingsocial,
+      projectUrl: "/allthingsocial",
+      languages: "ELixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Summertides",
+      image: summertides,
+      projectUrl: "/summertides",
+      languages: "React JS , Tailwind CSS",
+    },
+    {
+      title: "Purefruit",
+      image: purefruit,
+      projectUrl: "/purefruit",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Thrills & Spills",
+      image: thrills,
+      projectUrl: "/thrills",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Qliq Africa",
+      image: qliq,
+      projectUrl: "/qliq",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Photographer Portfolio",
+      image: kinywa,
+      projectUrl: "/kinywa",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "People's Choice Africa Awards",
+      image: peopleschoice,
+      projectUrl: "/peopleschoice",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "EngagePro Employee Management System",
+      image: engagepro,
+      projectUrl: "/engagepro",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Thinkopal Website",
+      image: thinkopal,
+      projectUrl: "/thinkopal",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Cleaning Services Website",
+      image: smarie,
+      projectUrl: "/smarie",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Meal Planning Website",
+      image: sisteskitchen,
+      projectUrl: "/sisteskitchen",
+      languages: "Ruby on Rails, React JS , Tailwind CSS",
+    },
+    {
+      title: "Zero22 Gym Website",
+      image: zero22,
+      projectUrl: "/zero22",
+      languages: "Next JS, Tailwind CSS",
+    },
+    {
+      title: "Martin Kerry Portflio",
+      image: kerry,
+      projectUrl: "/kerry",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Real Estate Website",
+      image: house,
+      projectUrl: "/house",
+      languages: "React JS, Tailwind CSS, Ruby on Rails",
+    },
+  ];
+  const elixir_projects = [
+    {
+      title: "Mche",
+      image: mche,
+      projectUrl: "/mche",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Lipia Ngoma",
+      image: lipiangoma,
+      projectUrl: "/lipiangoma",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Sema Web App",
+      image: sema,
+      projectUrl: "/sema",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Headwear Solutions Ecommerce System",
+      image: headwearsolutions,
+      projectUrl: "/headwearsolutions",
+      languages: "Elixir , Phoenix LiveView",
+    },
+    {
+      title: "Mwamba RFC",
+      image: mwamba,
+      projectUrl: "/mwamba",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "TheKultureKe Ticketing System",
+      image: thekultureke,
+      projectUrl: "/thekultureke",
+      languages: "Elixir , Phoenix LiveView",
+    },
+    {
+      title: "Custom Valetine's Day Website",
+      image: bemyvalentine,
+      projectUrl: "/bemyvalentine",
+      languages: "Elixir , Phoenix LiveView",
+    },
+    {
+      title: "Pataride",
+      image: pataride,
+      projectUrl: "/pataride",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Influencer Management System",
+      image: allthingsocial,
+      projectUrl: "/allthingsocial",
+      languages: "ELixir , Phoenix , Tailwind CSS",
+    },
+
+    {
+      title: "EngagePro Employee Management System",
+      image: engagepro,
+      projectUrl: "/engagepro",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+  ];
+
+  const react_projects = [
+    {
+      title: "Summertides",
+      image: summertides,
+      projectUrl: "/summertides",
+      languages: "React JS , Tailwind CSS",
+    },
+    {
+      title: "Photographer Portfolio",
+      image: kinywa,
+      projectUrl: "/kinywa",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Purefruit",
+      image: purefruit,
+      projectUrl: "/purefruit",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Thrills & Spills",
+      image: thrills,
+      projectUrl: "/thrills",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Qliq Africa",
+      image: qliq,
+      projectUrl: "/qliq",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "People's Choice Africa Awards",
+      image: peopleschoice,
+      projectUrl: "/peopleschoice",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Thinkopal Website",
+      image: thinkopal,
+      projectUrl: "/thinkopal",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Cleaning Services Website",
+      image: smarie,
+      projectUrl: "/smarie",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Meal Planning Website",
+      image: sisteskitchen,
+      projectUrl: "/sisteskitchen",
+      languages: "Ruby on Rails, React JS , Tailwind CSS",
+    },
+    {
+      title: "Martin Kerry Portfolio",
+      image: kerry,
+      projectUrl: "/kerry",
+      languages: "React JS, Tailwind CSS",
+    },
+    {
+      title: "Zero22 Gym Website",
+      image: zero22,
+      projectUrl: "/zero22",
+      languages: "Next JS, Tailwind CSS",
+    },
+    {
+      title: "Real Estate Website",
+      image: house,
+      projectUrl: "/house",
+      languages: "React JS, Tailwind CSS, Ruby on Rails",
+    },
+    {
+      title: "Turning Point",
+      image: turningpoint,
+      projectUrl: "/turningpoint",
+      languages: "Ruby on Rails, React JS , Tailwind CSS",
+    },
+    {
+      title: "Oraimo Clone",
+      image: oraimo,
+      projectUrl: "/oraimo",
+      languages: "Next JS, Tailwind CSS",
+    },
+    {
+      title: "News",
+      image: news,
+      projectUrl: "/news",
+      languages: "React JS, Tailwind CSS, Ruby on Rails",
+    },
+    {
+      title: "Data Sceince Portfolio",
+      image: kilush,
+      projectUrl: "/kilush",
+      languages: "React JS, Tailwind CSS, Ruby on Rails",
+    },
+  ];
+
   return (
     <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
@@ -32,119 +339,67 @@ const Projects = () => {
           frontend , Elixir and Phoenix Live View for my backend and Tailwind
           CSS for Styling .
         </p>
-        <div className="grid md:grid-cols-2  gap-8">
-          <ProjectItem
-            title="Mche"
-            image={mche}
-            projectUrl="/mche"
-            languages="Elixir , Phoenix , Tailwind CSS"
-          />
+        <div class="flex gap-4 md:flex-row flex-col items-center">
+          <div
+            class={`bg-white p-2 shadow-black/50 cursor-pointer  transition-all ease-in-out duration-500   flex gap-4 items-center shadow-sm rounded-3xl ${
+              projectstoshow == "all"
+                ? "bg-[#5651e5] text-white"
+                : "hover:bg-[#5651e5] hover:text-white"
+            }`}
+            onClick={() => setProjectsToShow("all")}
+          >
+            <IoMdStar /> All Projects <IoMdStar />
+          </div>
+          <div
+            class={`bg-white p-2 shadow-black/50 cursor-pointer  transition-all ease-in-out duration-500  flex gap-4 items-center shadow-sm rounded-3xl ${
+              projectstoshow == "elixir"
+                ? "bg-[#5651e5] text-white"
+                : "hover:bg-[#5651e5] hover:text-white"
+            }`}
+            onClick={() => setProjectsToShow("elixir")}
+          >
+            <IoMdStar /> Phoenix / Elixir Projects <IoMdStar />
+          </div>
+          <div
+            class={`bg-white p-2 shadow-black/50 cursor-pointer transition-all ease-in-out duration-500  flex gap-4 items-center shadow-sm rounded-3xl ${
+              projectstoshow == "react"
+                ? "bg-[#5651e5] text-white"
+                : "hover:bg-[#5651e5] hover:text-white"
+            }`}
+            onClick={() => setProjectsToShow("react")}
+          >
+            <IoMdStar /> React / Javascript Projects <IoMdStar />
+          </div>
+        </div>
 
-          <ProjectItem
-            title="Lipia Ngoma"
-            image={lipiangoma}
-            projectUrl="/lipiangoma"
-            languages="Elixir , Phoenix , Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Headwear Solutions Ecommerce System"
-            image={headwearsolutions}
-            projectUrl="/headwearsolutions"
-            languages="Elixir , Phoenix LiveView"
-          />
-          <ProjectItem
-            title="Mwamba RFC"
-            image={mwamba}
-            projectUrl="/mwamba"
-            languages="Elixir , Phoenix , Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="TheKultureKe Ticketing System"
-            image={thekultureke}
-            projectUrl="/thekultureke"
-            languages="Elixir , Phoenix LiveView"
-          />
-          <ProjectItem
-            title="Custom Valetine's Day Website"
-            image={bemyvalentine}
-            projectUrl="/bemyvalentine"
-            languages="Elixir , Phoenix LiveView"
-          />
-          <ProjectItem
-            title="Pataride"
-            image={pataride}
-            projectUrl="/pataride"
-            languages="Elixir , Phoenix , Tailwind CSS"
-          />
-          <ProjectItem
-            title="Influencer Management System"
-            image={allthingsocial}
-            projectUrl="/allthingsocial"
-            languages="ELixir , Phoenix , Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Summertides"
-            image={summertides}
-            projectUrl="/summertides"
-            languages="React JS , Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Photographer Portfolio"
-            image={kinywa}
-            projectUrl="/kinywa"
-            languages="React JS, Tailwind CSS"
-          />
-          <ProjectItem
-            title="People's Choice Africa Awards"
-            image={peopleschoice}
-            projectUrl="/peopleschoice"
-            languages="React JS, Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="EngagePro Employee Management System"
-            image={engagepro}
-            projectUrl="/engagepro"
-            languages="Elixir , Phoenix , Tailwind CSS"
-          />
-          <ProjectItem
-            title="Thinkopal Website"
-            image={thinkopal}
-            projectUrl="/thinkopal"
-            languages="React JS, Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Cleaning Services Website"
-            image={smarie}
-            projectUrl="/smarie"
-            languages="React JS, Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Meal Planning Website"
-            image={sisteskitchen}
-            projectUrl="/sisteskitchen"
-            languages="Ruby on Rails, React JS , Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Zero22 Gym Website"
-            image={zero22}
-            projectUrl="/zero22"
-            languages="Next JS, Tailwind CSS"
-          />
-
-          <ProjectItem
-            title="Real Estate Website"
-            image={house}
-            projectUrl="/house"
-            languages="React JS, Tailwind CSS, Ruby on Rails"
-          />
+        <div className="grid md:grid-cols-2  mt-16 gap-8">
+          {projectstoshow == "all" &&
+            projects.map((project, index) => (
+              <ProjectItem
+                title={project.title}
+                image={project.image}
+                projectUrl={project.projectUrl}
+                languages={project.languages}
+              />
+            ))}
+          {projectstoshow == "elixir" &&
+            elixir_projects.map((project, index) => (
+              <ProjectItem
+                title={project.title}
+                image={project.image}
+                projectUrl={project.projectUrl}
+                languages={project.languages}
+              />
+            ))}
+          {projectstoshow == "react" &&
+            react_projects.map((project, index) => (
+              <ProjectItem
+                title={project.title}
+                image={project.image}
+                projectUrl={project.projectUrl}
+                languages={project.languages}
+              />
+            ))}
         </div>
       </div>
 

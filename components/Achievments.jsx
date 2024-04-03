@@ -59,6 +59,11 @@ const Achievments = () => {
         </a>{" "}
         .
       </p>
+      <Image
+        src={hackathon10}
+        alt="hackathon1"
+        className="md:h-[800px]  mt-4 mx-auto w-[100%]"
+      />
 
       <div className="flex md:flex-row flex-col justify-center gap-4 mt-12">
         <div className="md:w-[50%] w-[90%] mx-auto flex flex-col gap-6 ">
@@ -119,15 +124,6 @@ const Achievments = () => {
           className=" h-[500px] object-cover  md:h-[410px]"
         />
       </div>
-      <Image
-        src={hackathon10}
-        alt="hackathon1"
-        className="md:h-[800px]  mt-4 mx-auto w-[100%]"
-      />
-
-      {/* <div className="flex justify-center mt-12">
-        <Image  src={sportpesalogo} alt="sportpesalogo" className="w-[200px]" />
-      </div> */}
     </div>
   );
 };

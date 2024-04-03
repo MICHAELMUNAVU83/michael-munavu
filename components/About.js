@@ -16,19 +16,14 @@ const About = () => {
           </p>
           <h2 className="py-4">Who am I?</h2>
           <p className="py-2 text-gray-600">
-            I am a software engineer and full stack developer. I initially
-            focused on <span className=" text-[#5651e5]">problem-solving</span>{" "}
-            before transitioning into a
-            <span className=" text-[#5651e5]">
-              {" "}
-              a full stack software engineer
-            </span>{" "}
-            and <span className=" text-[#5651e5]">Technical Writer</span>
+            I am a software engineer and Full stack developer with Elixir ,
+            Phoenix Live View and React JS experience. I am also a{" "}
+            <span className=" text-[#5651e5]">Technical Writer</span>
           </p>
           <p className="py-2 text-gray-600">
-            Over the last <span className=" text-[#5651e5]">three years</span> I
-            have gained considerable experience in the technology industry . I
-            am a graduate of {""}
+            Over the last <span className=" text-[#5651e5]">four years</span> I
+            have gained considerable professional experience in the technology
+            industry . I am a graduate of {""}
             <span className=" text-[#5651e5]">Microverse,</span> a remote
             International learning institution where I learned through pair
             programming and project building. We worked on many different
@@ -57,12 +52,7 @@ const About = () => {
               2 Hackathons and 5 more start up competitions this year .
             </span>{" "}
             . We have won a total of{" "}
-            <span className=" text-[#5651e5]"> 10 </span> competitions . I was
-            the lead backend engineer for both projects where we built a{" "}
-            <span className=" text-[#5651e5]">
-              system to help patients store and access their medical records
-              more efficiently
-            </span>
+            <span className=" text-[#5651e5]"> 12 </span> competitions .
           </p>
 
           <p>
