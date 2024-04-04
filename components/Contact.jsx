@@ -94,10 +94,12 @@ const Contact = () => {
               <div className="py-2">
                 <h2 className="text-xl font-semibold">Michael Munavu</h2>
                 <p>Full Stack Web Developer</p>
-                <p className="text-gray-600 p-4">
+                <p className="text-gray-600 py-4">
                   {" "}
-                  I am available for full time positions . Contact me and let's
-                  talk{" "}
+                  Do you have any ideas you would love to bring to life ,
+                  whether it is a landing page to drive more sales or a mega
+                  system that will make you the next Steve Jobs or Elon Musk ,
+                  Reach out , I would love to walk this journey with you{" "}
                 </p>
               </div>
               <div>
