@@ -66,4 +66,4 @@ function purefruit() {
   );
 }
 
-export default sisteskitchen;
+export default purefruit;

@@ -65,4 +65,4 @@ function qliq() {
   );
 }
 
-export default sisteskitchen;
+export default qliq;

@@ -63,4 +63,4 @@ function sema() {
   );
 }
 
-export default thekultureke;
+export default sema;

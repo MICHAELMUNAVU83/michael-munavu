@@ -64,4 +64,4 @@ function thrills() {
   );
 }
 
-export default sisteskitchen;
+export default thrills;

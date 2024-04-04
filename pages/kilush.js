@@ -73,4 +73,4 @@ function kilush() {
   );
 }
 
-export default kinywa;
+export default kilush;
