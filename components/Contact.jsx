@@ -88,7 +88,7 @@ const Contact = () => {
                   alt="computer"
                   width={500}
                   height={500}
-                  className="rounded-xl hover:scale-105 ease-in duration-200"
+                  className="rounded-xl hover:scale-105 cursor-pointer ease-in duration-200"
                 />
               </div>
               <div className="py-2">
