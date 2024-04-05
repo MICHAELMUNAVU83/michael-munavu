@@ -101,6 +101,11 @@ const NavBar = () => {
                 Contact
               </li>
             </Link>
+            <Link href="/webinar">
+              <li className="ml-10 uppercase text-sm hover:border-b hover:text-[#5651e5] hover:scale-105 transition-all duration-all hover:border-y-black">
+                Webinar Talk
+              </li>
+            </Link>
           </ul>
           <div
             className="md:hidden"
@@ -163,6 +168,9 @@ const NavBar = () => {
                 </Link>
                 <Link href="/#contact">
                   <li className="py-4 text-sm">Contact</li>
+                </Link>
+                <Link href="/webinar">
+                  <li className="py-4 text-sm">Webinar Talk</li>
                 </Link>
               </ul>
               <div className="pt-10">
