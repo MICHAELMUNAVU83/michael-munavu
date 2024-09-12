@@ -58,7 +58,7 @@ const About = () => {
           <p>
             I have worked at{" "}
             <span className=" text-[#5651e5]">
-              Uamuzi , Amaris Digital Solutions and GS1 Kenya
+              Uamuzi , Amaris Digital Solutions GS1 Kenya and Podii Consultants.
             </span>{" "}
             <p>
               as a full stack developer building web based solutions for real
@@ -67,12 +67,21 @@ const About = () => {
             I am currently at{" "}
             <a
               className=" text-[#5651e5] underline"
-              href="https://podiihq.com/"
+              href="https://africanmanagers.org/"
               target="_blank"
               rel="noreferrer"
             >
-              Podii Consultants
+              AMI KENYA
             </a>{" "}
+            and I am the founder of a tech consultancy company ,{" "}
+            <a
+              className=" text-[#5651e5] underline"
+              href="https://www.chpter.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Pyraus Group Limited
+            </a>
           </p>
 
           <p className="py-2 text-gray-600">

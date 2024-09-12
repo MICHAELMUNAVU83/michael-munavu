@@ -1,23 +1,23 @@
 import React from "react";
 import Image from "next/image";
-import lipiangomapic from "../public/assets/projects/lipiangoma.png";
+import tenxpic from "../public/assets/projects/tenx.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-function lipiangoma() {
+function tenx() {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" absolute top-0 left-0 w-full  h-[30vh] lg:h-[40vh] bg-black/70 z-10" />
         <Image
-          src={lipiangomapic}
+          src={tenxpic}
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 text-white p-2">
-          <h2 className="py-2">Lipiangoma</h2>
-          <p>Phoenix Live View / Tailwind CSS</p>
+          <h2 className="py-2">10x Beast</h2>
+          <p>Elixir / Phoenix Live View / Python</p>
         </div>
       </div>
 
@@ -28,21 +28,26 @@ function lipiangoma() {
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>
-            Lipia ngoma gives you a quick and easy way to request songs at your
-            favorite events. You can also tip your favourite Dj through the
-            platform, view their schedule where they will be performing and also
-            request custom mixes.
+            10XBEAST is an AI-powered email marketing platform that helps to
+            boost your sales significantly. It writes result-driven emails,
+            targets customers effectively, reveals competitor secrets, and
+            schedules meetings, saving time. The platform has proven results
+            including a 250% revenue boost, 8.7x more conversions, 400% more
+            deals, and saving 37hrs per week. It offers real-time success
+            measurement, smart follow-up automation, and insightful meeting
+            analytics. It's also equipped with a community for strategy exchange
+            and growth.",
           </p>
 
           <button className="px-8 py-2 mt-4">
-            <a href="https://lipiangoma.com" target="_blank" rel="noreferrer">
+            <a href="https://10xbeast.com" target="_blank" rel="noreferrer">
               Live Link
             </a>
           </button>
 
           <button className="md:px-8 px-2 py-2 mt-4">
             <a
-              href=" https://vimeo.com/977286008"
+              href=" https://vimeo.com/955164855"
               target="_blank"
               rel="noreferrer"
             >
@@ -54,6 +59,9 @@ function lipiangoma() {
           <div className="p-2">
             <p className="text-center  font-semibold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1 ">
+              <p className="flex items-center text-gray-600 py-2 ">
+                <RiRadioButtonFill className="pr-1" /> Elixir
+              </p>
               <p className="flex items-center text-gray-600 py-2 ">
                 <RiRadioButtonFill className="pr-1" /> Phoenix Live View
               </p>
@@ -71,4 +79,4 @@ function lipiangoma() {
   );
 }
 
-export default lipiangoma;
+export default tenx;

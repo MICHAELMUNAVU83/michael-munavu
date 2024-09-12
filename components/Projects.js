@@ -25,12 +25,27 @@ import sema from "../public/assets/projects/sema.png";
 import qliq from "../public/assets/projects/qliq.png";
 import thrills from "../public/assets/projects/thrills.png";
 import kerry from "../public/assets/projects/kerry.png";
+import raila from "../public/assets/projects/raila.png";
+import tenx from "../public/assets/projects/tenx.png";
 
 import purefruit from "../public/assets/projects/purefruit.png";
 import ProjectItem from "./ProjectItem";
+
 const Projects = () => {
   const [projectstoshow, setProjectsToShow] = useState("all");
   const projects = [
+    {
+      title: "Raila For AUC Official Website",
+      image: raila,
+      projectUrl: "/raila",
+      languages: "React JS , Tailwind CSS",
+    },
+    {
+      title: "10x Beast",
+      image: tenx,
+      projectUrl: "/tenx",
+      languages: "Elixir , Phoenix LiveView , Python",
+    },
     {
       title: "Mche",
       image: mche,
@@ -166,6 +181,18 @@ const Projects = () => {
   ];
   const elixir_projects = [
     {
+      title: "10x Beast",
+      image: tenx,
+      projectUrl: "/tenx",
+      languages: "Elixir , Phoenix LiveView , Python",
+    },
+    {
+      title: "Sema Web App",
+      image: sema,
+      projectUrl: "/sema",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
       title: "Mche",
       image: mche,
       projectUrl: "/mche",
@@ -177,12 +204,7 @@ const Projects = () => {
       projectUrl: "/lipiangoma",
       languages: "Elixir , Phoenix , Tailwind CSS",
     },
-    {
-      title: "Sema Web App",
-      image: sema,
-      projectUrl: "/sema",
-      languages: "Elixir , Phoenix , Tailwind CSS",
-    },
+
     {
       title: "Headwear Solutions Ecommerce System",
       image: headwearsolutions,
@@ -229,6 +251,12 @@ const Projects = () => {
   ];
 
   const react_projects = [
+    {
+      title: "Raila For AUC Official Website",
+      image: mche,
+      projectUrl: "/raila",
+      languages: "React JS , Tailwind CSS",
+    },
     {
       title: "Summertides",
       image: summertides,
