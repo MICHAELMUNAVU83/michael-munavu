@@ -40,7 +40,7 @@ function lipiangoma() {
             </a>
           </button>
 
-          <button className="md:px-8 px-2 py-2 mt-4">
+          <button className="md:px-8 ml-4 px-2 py-2 mt-4">
             <a
               href=" https://vimeo.com/977286008"
               target="_blank"
