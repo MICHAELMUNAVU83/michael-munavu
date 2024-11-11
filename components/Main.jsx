@@ -1,5 +1,12 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter, FaWhatsapp } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaTwitter,
+  FaWhatsapp,
+  FaTiktok,
+  FaInstagram,
+} from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import Typewriter from "typewriter-effect";
 import { motion } from "framer-motion";
@@ -39,17 +46,14 @@ const Main = () => {
               />
             </h1>
             <p className=" kulim-park py-4 text-gray-600 max-w-[85%] m-auto">
-              Looking for a full-stack developer with a track record of success
-              for your next project? Look no further! With 4 years of
-              self-taught experience and graduation from top bootcamps
-              Microverse and Moringa, I have the skills and passion to build
-              stunning, scalable web applications. From small to large-scale
-              projects, I have used React , Elixir and Phoenix to create
-              solutions that delight users and drive results. So why settle for
-              less when you can have the best? Let's build something great
-              together
+              I am a full-stack developer with 4 years of experience, trained at
+              Microverse and Moringa. I specialize in building scalable web
+              applications using Elixir , Phoenix and React JS. From startups to
+              enterprise solutions, I’ve delivered projects that prioritize user
+              experience and performance. I also create content around tech to
+              help developers grow. Let’s create something impactful together.
             </p>
-            <div className="flex items-center justify-between max-w-[330px] md:gap-4 gap-2 m-auto py-4">
+            <div className="flex items-center flex-wrap  justify-center md:w-[100%]  gap-2 m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">
                 <a
                   href="https://www.linkedin.com/in/michael-munavu/"
@@ -89,6 +93,16 @@ const Main = () => {
                   rel="noreferrer"
                 >
                   <FaWhatsapp className="md:text-2xl text-md " />
+                </a>
+              </div>
+
+              <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4  cursor-pointer hover:scale-110 ease-in   duration-300">
+                <a
+                  href="https://www.tiktok.com/@michaelmunavu"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FaTiktok className="md:text-2xl text-md " />
                 </a>
               </div>
             </div>

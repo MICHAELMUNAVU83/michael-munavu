@@ -16,6 +16,7 @@ import elixirjwt from "../public/assets/blogs/elixirjwt.png";
 import sendsms from "../public/assets/blogs/sendsms.png";
 import chpter from "../public/assets/blogs/chpter.png";
 import testinglive from "../public/assets/blogs/testinglive.png";
+import custom_error from "../public/assets/blogs/custom_error.png";
 import phoenixliveviewuploads from "../public/assets/blogs/upload-phoenix-liveview.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
@@ -69,6 +70,16 @@ const Blogs = () => {
             // when window width is >= 1024px
           }}
         >
+          <SwiperSlide>
+            <BlogItem
+              title="Custom Error Pages in Phoenix"
+              image={custom_error}
+              blogUrl="https://medium.com/@michaelmunavu83/creating-custom-error-pages-in-phoenix-25bda80196e3"
+              description="In this article, I will show you how to create custom error pages in Phoenix. We will create custom error pages for 404, 500, and 422 errors."
+              topics="Elixir , Phoenix"
+              className="flex justify-center"
+            />
+          </SwiperSlide>
           <SwiperSlide>
             <BlogItem
               title="Elixir Api Authentication"
