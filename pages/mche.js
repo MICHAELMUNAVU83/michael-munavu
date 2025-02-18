@@ -37,15 +37,6 @@ function mche() {
             their produce, minimizing post-harvest losses and boosting income.
           </p>
 
-          <button className="px-8 py-2 mt-4">
-            <a
-              href="https://mche.africa"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Link
-            </a>
-          </button>
           <button className="px-8 py-2 ml-4  mt-4 mr-8">
             <a
               href="https://www.canva.com/design/DAFhOv9K48w/oGsE87NAb5sWzbuXHznRMQ/edit?utm_content=DAFhOv9K48w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"

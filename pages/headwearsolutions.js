@@ -33,15 +33,7 @@ function headwearsolutions() {
             checkout. Users can either pay with mobile money or credit card and
             they can track their orders after purchase.
           </p>
-          <button className="px-8 py-2  mt-4 mr-8">
-            <a
-              href="https://headwearsolutions.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo
-            </a>
-          </button>
+
           <button className="px-8 py-2 mt-4">
             <a
               href="https://www.canva.com/design/DAF_7cmkKUk/eULHwYTpEs8zTWeWXGdUng/edit?utm_content=DAF_7cmkKUk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"

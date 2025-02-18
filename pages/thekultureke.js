@@ -28,11 +28,7 @@ function thekultureke() {
           </p>
           <h2 className="py-2 text-gray-600">Overview</h2>
           <p>This is an event ticketing system for The Kulture Ke .</p>
-          <button className="px-8 py-2  mt-4 mr-8">
-            <a href="https://thekultureke.com" target="_blank" rel="noreferrer">
-              Demo
-            </a>
-          </button>
+
           <button className="px-8 py-2 mt-4">
             <a
               href="https://www.canva.com/design/DAFuDQO4ylE/Ud2nlAc6bd8ht-4mAn4XjQ/edit?utm_content=DAFuDQO4ylE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"

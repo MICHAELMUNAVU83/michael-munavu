@@ -40,7 +40,7 @@ function tenx() {
           </p>
 
           <button className="px-8 py-2 mt-4">
-            <a href="https://10xengage.com" target="_blank" rel="noreferrer">
+            <a href="https://nexuscale.ai" target="_blank" rel="noreferrer">
               Live Link
             </a>
           </button>

@@ -16,101 +16,49 @@ const About = () => {
           </p>
           <h2 className="py-4">Who am I?</h2>
           <p className="py-2 text-gray-600">
-            I am a software engineer and Full stack developer with Elixir ,
-            Phoenix Live View and React JS experience. I am also a{" "}
-            <span className=" text-[#5651e5]">Technical Writer</span>
+            I’m a software engineer and full-stack developer with experience in
+            <span className=" text-[#5651e5]">Elixir, </span>{" "}
+            <span className=" text-[#5651e5]">Phoenix LiveView,</span> and{" "}
+            <span className=" text-[#5651e5]"> React JS. </span>
           </p>
           <p className="py-2 text-gray-600">
-            Over the last <span className=" text-[#5651e5]">four years</span> I
-            have gained considerable professional experience in the technology
-            industry . I am a graduate of {""}
-            <span className=" text-[#5651e5]">Microverse,</span> a remote
-            International learning institution where I learned through pair
-            programming and project building. We worked on many different
-            technologies like{" "}
-            <span className=" text-[#5651e5]">
-              HTML, CSS, JS, React, Postgresql, Ruby on Rails,
-            </span>{" "}
-            and collaborated with developers across the globe . Additionally, I
-            have completed a software development program at{" "}
-            <span className=" text-[#5651e5]">Moringa School</span> which is the{" "}
-            <span className=" text-[#5651e5]">top programming school</span> in
-            Kenya.
+            I’ve worked at Uamuzi, Amaris Digital Solutions, GS1 Kenya, and
+            Podii Consultants, building web solutions.
           </p>
-
-          <p>
-            I then started working on my own projects and exploring new
-            technologies like{" "}
-            <span className=" text-[#5651e5]">
-              Elixir , Phoenix , Next JS , Tailwind CSS , Docker and GraphQL
-            </span>{" "}
-          </p>
-
           <p className="py-2 text-gray-600">
-            In the past year, I have been part of a team that won{" "}
+            I’ve also won 12 hackathons and startup competitions in{" "}
             <span className=" text-[#5651e5]">
-              2 Hackathons and 5 more start up competitions this year .
-            </span>{" "}
-            . We have won a total of{" "}
-            <span className=" text-[#5651e5]"> 12 </span> competitions .
+              {" "}
+              Kenya , Morocco , France , Belgium and Nigeria.{" "}
+            </span>
           </p>
-
-          <p>
-            I have worked at{" "}
-            <span className=" text-[#5651e5]">
-              Uamuzi , Amaris Digital Solutions GS1 Kenya and Podii Consultants.
-            </span>{" "}
-            <p>
-              as a full stack developer building web based solutions for real
-              world projects.
-            </p>
-            I am currently at{" "}
+          <p className="py-2 text-gray-600">
+            Currently, I’m at{" "}
             <a
               className=" text-[#5651e5] underline"
               href="https://africanmanagers.org/"
               target="_blank"
               rel="noreferrer"
             >
-              AMI KENYA
+              {" "}
+              AMI
             </a>{" "}
-            and I am the founder of a tech consultancy company ,{" "}
+            and run my own tech consultancy,{" "}
             <a
               className=" text-[#5651e5] underline"
-              href="https://www.chpter.com/"
+              href="https://www.virgil.afrca/"
               target="_blank"
               rel="noreferrer"
             >
-              Pyraus Group Limited
+              {" "}
+              Virgil Africa .
             </a>
           </p>
-
-          <p className="py-2 text-gray-600">
-            Through my experiences, I discovered my passion for teaching and
-            mentoring others. Currently, I write technical articles on{" "}
-            <span className=" text-[#5651e5]">
-              <a
-                href="https://medium.com/@michaelmunavu83"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Medium
-              </a>
-            </span>
+          <p>
+            I enjoy teaching and write technical articles on Medium and creating
+            tech content.
           </p>
 
-          <p className="py-2 text-gray-600">
-            I have written a hex package that allows elixir devs in Kenya to
-            integrate payments in their applications . You can check it out{" "}
-            <span className=" text-[#5651e5]">
-              <a
-                href="https://hex.pm/packages/chpter"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Chpter Hex Doc
-              </a>
-            </span>
-          </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             <Link href="/#projects">
               Check out some of my recent projects below.

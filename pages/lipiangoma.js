@@ -34,12 +34,6 @@ function lipiangoma() {
             request custom mixes.
           </p>
 
-          <button className="px-8 py-2 mt-4">
-            <a href="https://lipiangoma.com" target="_blank" rel="noreferrer">
-              Live Link
-            </a>
-          </button>
-
           <button className="md:px-8 ml-4 px-2 py-2 mt-4">
             <a
               href=" https://vimeo.com/977286008"

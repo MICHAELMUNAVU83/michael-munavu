@@ -41,10 +41,22 @@ const Projects = () => {
       languages: "React JS , Tailwind CSS",
     },
     {
-      title: "10x Beast",
+      title: "NexuscaleAI",
       image: tenx,
       projectUrl: "/tenx",
       languages: "Elixir , Phoenix LiveView , Python",
+    },
+    {
+      title: "Sema Web App",
+      image: sema,
+      projectUrl: "/sema",
+      languages: "Elixir , Phoenix , Tailwind CSS",
+    },
+    {
+      title: "Mwamba RFC",
+      image: mwamba,
+      projectUrl: "/mwamba",
+      languages: "Elixir , Phoenix , Tailwind CSS",
     },
     {
       title: "Mche",
@@ -58,34 +70,11 @@ const Projects = () => {
       projectUrl: "/lipiangoma",
       languages: "Elixir , Phoenix , Tailwind CSS",
     },
-    {
-      title: "Sema Web App",
-      image: sema,
-      projectUrl: "/sema",
-      languages: "Elixir , Phoenix , Tailwind CSS",
-    },
+
     {
       title: "Headwear Solutions Ecommerce System",
       image: headwearsolutions,
       projectUrl: "/headwearsolutions",
-      languages: "Elixir , Phoenix LiveView",
-    },
-    {
-      title: "Mwamba RFC",
-      image: mwamba,
-      projectUrl: "/mwamba",
-      languages: "Elixir , Phoenix , Tailwind CSS",
-    },
-    {
-      title: "TheKultureKe Ticketing System",
-      image: thekultureke,
-      projectUrl: "/thekultureke",
-      languages: "Elixir , Phoenix LiveView",
-    },
-    {
-      title: "Custom Valetine's Day Website",
-      image: bemyvalentine,
-      projectUrl: "/bemyvalentine",
       languages: "Elixir , Phoenix LiveView",
     },
     {
@@ -94,6 +83,13 @@ const Projects = () => {
       projectUrl: "/pataride",
       languages: "Elixir , Phoenix , Tailwind CSS",
     },
+    {
+      title: "TheKultureKe Ticketing System",
+      image: thekultureke,
+      projectUrl: "/thekultureke",
+      languages: "Elixir , Phoenix LiveView",
+    },
+
     {
       title: "Influencer Management System",
       image: allthingsocial,
@@ -181,7 +177,7 @@ const Projects = () => {
   ];
   const elixir_projects = [
     {
-      title: "10x Beast",
+      title: "NexuscaleAI",
       image: tenx,
       projectUrl: "/tenx",
       languages: "Elixir , Phoenix LiveView , Python",
@@ -224,17 +220,18 @@ const Projects = () => {
       languages: "Elixir , Phoenix LiveView",
     },
     {
-      title: "Custom Valetine's Day Website",
-      image: bemyvalentine,
-      projectUrl: "/bemyvalentine",
-      languages: "Elixir , Phoenix LiveView",
-    },
-    {
       title: "Pataride",
       image: pataride,
       projectUrl: "/pataride",
       languages: "Elixir , Phoenix , Tailwind CSS",
     },
+    {
+      title: "Custom Valetine's Day Website",
+      image: bemyvalentine,
+      projectUrl: "/bemyvalentine",
+      languages: "Elixir , Phoenix LiveView",
+    },
+
     {
       title: "Influencer Management System",
       image: allthingsocial,

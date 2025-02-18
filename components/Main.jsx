@@ -46,12 +46,11 @@ const Main = () => {
               />
             </h1>
             <p className=" kulim-park py-4 text-gray-600 max-w-[85%] m-auto">
-              I am a full-stack developer with 4 years of experience, trained at
-              Microverse and Moringa. I specialize in building scalable web
-              applications using Elixir , Phoenix and React JS. From startups to
-              enterprise solutions, I’ve delivered projects that prioritize user
-              experience and performance. I also create content around tech to
-              help developers grow. Let’s create something impactful together.
+              I'm a full-stack developer with 4 years of experience . I
+              specialize in scalable web apps using Elixir, Phoenix, Ash and
+              React JS. I’ve delivered projects focusing on user experience and
+              performance, and I create tech content to help developers grow.
+              Let’s build something impactful!
             </p>
             <div className="flex items-center flex-wrap  justify-center md:w-[100%]  gap-2 m-auto py-4">
               <div className="rounded-full shadow-lg shadow-gray-400 md:p-6 p-4 cursor-pointer  hover:scale-110 ease-in   duration-300">
