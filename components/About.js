@@ -16,7 +16,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who am I?</h2>
           <p className="py-2 text-gray-600">
-            I’m a software engineer and full-stack developer with experience in
+            I’m a software engineer and full-stack developer with experience in{" "}
             <span className=" text-[#5651e5]">Elixir, </span>{" "}
             <span className=" text-[#5651e5]">Phoenix LiveView,</span> and{" "}
             <span className=" text-[#5651e5]"> React JS. </span>
